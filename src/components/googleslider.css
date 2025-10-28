@@ -1,0 +1,137 @@
+.google-slider-section {
+  width: 100%;
+  background: #fff;
+  padding: 50px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.google-slider-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-slider {
+  display: flex;
+  gap: 40px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+  width: 90%;
+}
+
+.google-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.google-slide {
+  flex: 0 0 80%;
+  scroll-snap-align: center;
+  border-radius: 24px;
+  background: #f8f9fa;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.google-slide.active {
+  transform: scale(1.02);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.media-container video,
+.media-container img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 24px 24px 0 0;
+}
+
+.text-container {
+  padding: 25px;
+}
+
+.text-container h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.text-container p {
+  color: #555;
+  font-size: 16px;
+  margin: 10px 0 15px;
+}
+
+.text-container a {
+  color: #1a73e8;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.text-container a:hover {
+  text-decoration: underline;
+}
+
+.nav-btn {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: #1a73e8;
+  color: #fff;
+}
+
+.nav-btn.prev {
+  position: absolute;
+  left: 20px;
+}
+
+.nav-btn.next {
+  position: absolute;
+  right: 20px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #1a73e8;
+}
+
+@media (max-width: 768px) {
+  .google-slide {
+    flex: 0 0 90%;
+  }
+
+  .media-container video,
+  .media-container img {
+    height: 50vh;
+  }
+}

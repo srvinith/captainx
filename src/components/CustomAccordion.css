@@ -1,0 +1,114 @@
+/* Accordion Item */
+.custom-accordion-item {
+  background: transparent !important;
+  border: none !important;
+  margin-left: 20px;
+  border-bottom: 1px solid #ccc !important;
+}
+
+.gradient-border-left {
+  position: relative;
+}
+
+.gradient-border-left::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(to top, #666666, #ffffff);
+}
+.slid{
+    border-left: 1px solid #000;
+}
+
+/* Remove default toggle icon */
+.custom-accordion-header::after {
+  display: none;
+}
+.accordion-button::after{
+    display: none;
+}
+
+/* Body */
+.custom-accordion-body {
+  background: transparent !important;
+  color: #333;
+  padding-left: 10px;
+  position: relative;
+}
+.custom-accordion-body::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1.73px;
+    height: 19px;
+    background: #02286F;
+}
+
+/* Icon */
+.accordion-icon {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: relative;
+  right: 0 !important;
+ 
+
+}
+
+.icon {
+  transition: transform 0.3s ease;
+  font-size: 12px;
+  font-weight:100 !important;
+  right: 0;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.custom-accordion-header .accordion-button {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  width: 100%;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 0 !important;
+}
+
+.custom-accordion-header p{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px;
+    color: #0B050F;
+}
+
+.custom-accordion-body{
+    font-size: 18px;
+    color: #A2A2A2;
+    font-weight: 400;
+}
+
+.anim-img{
+   animation: anim-imgs 6s ease-in-out infinite alternate;
+}
+@keyframes anim-imgs {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+
+  }
+}
+
+.anim-img img{
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}

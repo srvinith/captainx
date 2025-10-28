@@ -1,0 +1,147 @@
+.key-features {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-gp {
+    height: 100%;
+    overflow-y: scroll;
+    /* inner scroll handles cards */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+
+.feature-img-wrapper {
+    position: sticky;
+    top: 0;
+    height: 100%;
+}
+
+
+.card-gp {
+    height: 60vh;
+    overflow-y: scroll;
+    margin-top: 60px;
+    -ms-overflow-style: none;
+    scroll-snap-type: y mandatory;
+    /* snap each card */
+    overflow-y: scroll;
+    /* inner scroll handles cards */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+
+.card-gp::-webkit-scrollbar {
+    display: none;
+}
+
+.card-fut {
+    scroll-snap-align: start;
+    /* snap at start */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 5px;
+    position: sticky;
+}
+
+.card-fut-child {
+    width: 70%;
+}
+
+.card-fut-child h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.card-fut-child p {
+    font-size: 16px;
+    color: #a2a2a2;
+    font-weight: 400;
+}
+
+.num-fut {
+    font-size: 36px;
+    font-weight: 400;
+    color: #000;
+    opacity: 0.3;
+    transition: all 0.3s ease;
+}
+
+/* ✅ Hover effect */
+.card-fut:hover {
+    background: #efebfd;
+}
+
+.card-fut:hover .num-fut {
+    opacity: 1;
+    color: #000;
+}
+
+/* ✅ Active state (when clicked) */
+.card-fut.active {
+    background: #efebfd;
+}
+
+.card-fut.active .num-fut {
+    color: #000;
+    opacity: 1;
+}
+
+/* ✅ Optional image smooth fade */
+
+.feature-img {
+    transition: opacity 0.5s ease;
+    width: 100%;
+    height: 80vh;
+    object-fit: contain;
+    position: sticky;
+    top: 20px;
+}
+
+@keyframes appearfut {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+}
+
+.block-view-feaut {
+    animation: appearfut 2s ease-out 0.3s both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+}
+
+/* Make the image sticky while scrolling through cards */
+.feature-img-wrapper {
+    position: sticky;
+    top: 20px;
+    /* adjust as needed */
+    width: 100%;
+    height: 80vh;
+}
+
+/* Optional fade animation */
+.feature-img {
+    transition: opacity 0.5s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

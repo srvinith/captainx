@@ -1,0 +1,130 @@
+.slider-card {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  padding: 0 20px 20px 20px;
+  scroll-behavior: smooth;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  width: 50px;
+  height: 50px;
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.slider-arrow.left {
+  left: 10px;
+}
+
+.slider-arrow.right {
+  right: 10px;
+}
+
+.slider-arrow:hover {
+  background: rgba(0,0,0,0.7);
+}
+
+
+.slide-card {
+  flex: 0 0 60vw;
+  height: 65vh;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: self-start;
+  overflow: hidden;
+  scroll-snap-align: start;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left video area */
+.video-con {
+  width: 40%;
+  height: 100%;
+  padding: 0;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.video-con video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* full height fill */
+  display: block;
+  border-radius: 0;
+}
+
+/* Right text area */
+.slider-con {
+  width: 60%;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slider-con h2{
+    font-size: 65px;
+}
+.slider-con p{
+    color: #A2A2A2;
+    font-size: 20px;
+}
+.slider-con button{
+    width: fit-content;
+}
+
+/* Hide scrollbar */
+.slider-card::-webkit-scrollbar {
+  display: none;
+}
+
+.view-all{
+   float: right;
+   color: #683FEA;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 20px; */
+  gap: 10px;
+}
+
+.dots {
+  width: 15px;
+  height: 15px;
+  background: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+  transform: scale(0.6);
+}
+
+.dots.active {
+  background: #000;
+  transform: scale(0.7);
+}
+
+.view-all:hover svg {
+  transform: rotate(-45deg);
+}
+.explore-btn:hover svg{
+  transform: rotate(-45deg);
+}
+.learn-more:hover svg{
+  transform: rotate(-45deg);
+}

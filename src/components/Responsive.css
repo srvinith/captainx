@@ -1,0 +1,345 @@
+@media (max-width: 991px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .custom-navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+  .why-sec{
+    background: none;
+  }
+    .logo {
+        width: 150px;
+        object-fit: contain;
+    }
+
+    .custom-link:hover,
+    .custom-link.active {
+        color: #000;
+        border-bottom: 2px solid #000;
+    }
+
+    .hero-title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .hero-text-p {
+        font-size: 18px !important;
+        text-align: center;
+    }
+
+    .mob-btn {
+        text-align: center;
+    }
+
+    .scroll-text {
+        display: none;
+    }
+
+    .scroll-down {
+        position: absolute;
+    }
+
+    .mob-scroll {
+        position: absolute;
+        bottom: -90px;
+    }
+
+
+    .sec-top-titl {
+        font-size: 20px;
+    }
+
+    .sec-title {
+        font-size: 30px;
+    }
+
+    .mob-card-anim {
+        position: sticky;
+        top: 50px;
+        background-color: #fff;
+    }
+
+    .text-11 {
+        position: absolute;
+        top: -10px;
+        left: 70px;
+        font-size: 80vw;
+        margin: 0;
+        padding: 0;
+        transition: all 1s ease-in-out;
+    }
+
+
+
+    .slide-card {
+        flex: 0 0 80vw;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .video-con {
+        width: 100%;
+        height: 50vh;
+        object-fit: contain;
+
+    }
+
+    .slider-con {
+        width: 100%;
+        padding: 10px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .slider-con h2 {
+        font-size: 20px;
+    }
+
+    .slider-con p {
+        color: #A2A2A2;
+        font-size: 16px;
+        display: none;
+    }
+
+    .slider-con button,
+    .transform-btn {
+        padding: 5px 15px;
+    }
+
+    .circle-group {
+        height: 70vh;
+        width: 70vw;
+    }
+
+    .circle-1 {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .circle-2 {
+        width: 70vw;
+        height: 70vw;
+    }
+
+    .circle-3 {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .circle-center-text h2 {
+        font-size: 20px;
+    }
+
+    .circle-center-text p {
+        color: #625F6D;
+        font-size: 16px;
+    }
+
+    .member {
+        position: absolute;
+        top: 43%;
+        left: 40%;
+        transform-origin: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 3;
+        --translate-distance: 39vw;
+    }
+
+    .name-tag {
+        margin-top: 6px;
+        padding: 1px 4px;
+        border-radius: 6px;
+        font-size: 12px;
+        text-align: center;
+        color: #ffff;
+        position: absolute;
+        left: -100px;
+        top: 50px;
+        /* width: 200px; */
+        background: rgba(255, 255, 255, 0.25);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+    }
+
+    .name-tag-right {
+        left: auto;
+        /* disable left */
+        right: -80px;
+        /* move to right */
+    }
+
+    .cta {
+        height: fit-content;
+        background: none;
+    }
+
+
+    /* ============product titile======= */
+    .first-product-part {
+        align-items: self-start;
+        padding: 100px 0;
+    }
+
+    .product-title {
+        font-size: 35px;
+        text-align: start;
+        font-weight: 500;
+    }
+
+    .product-text-p {
+        font-size: 18px !important;
+        text-align: start;
+    }
+
+    .product-btns {
+        text-align: start !important;
+    }
+
+    .card-prod-img {
+        top: -50px;
+        width: 100%;
+        height: 20vh;
+        z-index: 1;
+        margin-top: 200px;
+    }
+
+    .card-proud-second {
+        position: absolute;
+        left: 70px;
+        top: 40px;
+    }
+
+    .card-over1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        top: 15vh;
+        height: 80vh;
+
+    }
+
+    .card-over-img {
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .card-over-con {
+        height: 40vh;
+    }
+
+    .card-over-con h2 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .card-over-con p {
+        font-size: 18px;
+        color: #A2A2A2;
+    }
+
+    .pos-fix {
+        position: sticky;
+        top: 0;
+        z-index: -1;
+        margin-bottom: 3vh;
+    }
+
+    .gif-section {
+        height: 50vh;
+    }
+
+    .gif-img {
+        width: 220px;
+    }
+
+
+    .news-box {
+        position: relative;
+        display: flex;
+        align-items: self-start;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 350px;
+        width: 100%;
+        padding: 30px;
+        background: url('../assets/images/white-bg.svg') no-repeat center/contain;
+    }
+
+    .news-box::after {
+        content: '';
+        position: fixed;
+        bottom: 4px;
+        right: 20px;
+        color: #241A4A;
+        background: white;
+        border: 0.5px solid #C1C0C4;
+        border-radius: 16px;
+        padding: 10px;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ind-img-over {
+        height: 50vh;
+
+    }
+
+    .indual-product-section {
+        height: 120vh;
+    }
+
+    .key-features {
+        /* height: 100vh; */
+        position: relative;
+        /* margin-top: -10px; */
+    }
+
+    .feature-img {
+        height: 40vh;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .card-gp {
+        height: 50vh;
+        margin-top: 20px;
+    }
+
+    .future-sec {
+        height: 80vh !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .card-wrap{
+        height: 25vh;
+    }
+    .platform{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .faq{
+        height: auto;
+    }
+}

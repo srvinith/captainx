@@ -1,0 +1,1817 @@
+{
+  "en": {
+   "navbar": {
+  "navlinks": [
+    { "key": "products", "label": "Products" },
+    { "key": "company", "label": "Company" },
+    { "key": "partners", "label": "Partners" },
+    { "key": "news", "label": "News & Insights" },
+    { "key": "careers", "label": "Careers" }
+  ],
+  "productdrop": [
+    { "key": "academy", "label": "CaptainX Academy" },
+    { "key": "federations", "label": "CaptainX Federations" },
+    { "key": "tournaments", "label": "CaptainX Tournaments" },
+    { "key": "live", "label": "CaptainX Live" }
+  ],
+  
+ "companydrop": [
+  { "key": "our-story", "label": "Our Story", "anchor": "#our-story" },
+  { "key": "vision", "label": "Vision & Mission", "anchor": "#vision" },
+  { "key": "people", "label": "People", "anchor": "#people" },
+  { "key": "sustainability", "label": "Sustainability", "anchor": "#sustainability" }
+],
+
+  "letsTalk": "Let's Talk"
+},
+
+
+    "home": {
+      "heroTitle": "The <span>future</span>, in every  athlete.",
+      "heroDesc": "Elevate performance, redefine potential, and build the champions of tomorrow with data-driven technology.",
+      "exploreBtn": "Discover How",
+      "scrollDown": "Scroll down",
+      "solutionTop": "We are For",
+      "solutionTitle": "Built for  play to win.",
+      "keyValueTop": "X-Factor",
+      "keyValueTitle": "The future is sports intelligence",
+      "keyValueDesc": "We fuse AI, analytics, and human ambition to empower athletes, academies, federations, clubs, and institutions to drive the next evolution of sport.",
+      "cardBox": [
+        {
+          "title": "Players",
+          "desc": "Empowering players by enhancing their performance through data-driven insights, helping them showcase their skills and stay ahead.",
+          "text1": "Players",
+          "text2": "P"
+        },
+        {
+          "title": "Organisations",
+          "desc": "Empowering academies, federations, clubs and institutions to elevate standards, unleash talent, and master operations at every level.",
+          "text1": "Academies",
+          "text2": "Academies & Institutions",
+          "text3": "Federations & Clubs"
+        },
+        {
+          "title": "Fans",
+          "desc": "Bringing fans closer to the action, amplifying excitement, and turning every match into an unforgettable shared experience.",
+          "text1": "Fans",
+          "text2": "Academies"
+        }
+      ],
+      "accordion": [
+        {
+          "title": "Athlete-first insights",
+          "desc": "Advanced machine learning transforms gameplay data into personalised performance breakthroughs.",
+          "image": "images/accor-1.png"
+        },
+        {
+          "title": "Ecosystems, Elevated",
+          "desc": "CaptainX unites the sporting world with intelligence that drives revenue, engagement, and growth.",
+          "image": "images/accor-2.png"
+        },
+        {
+          "title": "From Saudi to the World",
+          "desc": "CaptainX drives data-led growth to advance sports innovation and position Saudi Arabia as a global leader in sports.",
+          "image": "images/accor-3.png"
+        }
+      ],
+      "videoSlider": {
+        "topTitle": "Products",
+        "title": "Go beyond the ordinary",
+        "slides": [
+          {
+            "title": "CaptainX Academy",
+            "desc": "Elevate athlete growth and simplify academy management with a platform that centralises data, automates workflows, and delivers actionable insights.",
+            "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+            "image": "/images/academy.gif",
+            "link":"/products/academy"
+          },
+          {
+            "title": "CaptainX Federations",
+            "desc": "Power your sports organisation with smart digital solutions to streamline operations, improve communication, and drive growth through automation.",
+            "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+            "image": "/images/federatio.gif",
+            "link":"/products/federations"
+          },
+          {
+            "title": "CaptainX Tournaments",
+            "desc": "CaptainX Tournaments simplifies tournament management, handling listings, registration, marketing, and player profiles.",
+            "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+            "image": "/images/tournaments.gif",
+            "link":"/products/tournaments"
+          }
+        ],
+        "seeMore": "See More",
+        " viewlink":"/products",
+        "viewAll": "View All"
+      },
+      "company": {
+        "keyValueTop": "Company",
+        "keyValueTitle": "Brains behind the game",
+        "keyValueDesc": "Driven by the spirit of Saudi Vision 2030 and through intelligent, AI-driven solutions, we ignite performance and growth across the entire sports ecosystem. From grassroots to greatness, we are the enablers of a smarter, faster and more connected sporting world.",
+        "image": "images/team.png",
+        "learnmore": "Learn More"
+      },
+      "newsCard": {
+        "topTitle": "News & Insights",
+        "title": "Beyond the scoreboard",
+        "viewall": "View All",
+        "news": [
+          {
+            "number": "01",
+            "title": "Participation in LEAP 2025",
+            "desc": "CaptainX proudly participated in LEAP 2025, the premier global platform shaping the future of technology.",
+            "date": "Feb 2025"
+          },
+          {
+            "number": "02",
+            "title": "Attended PIF 2025",
+            "desc": "CaptainX participated in the PIF-Private Sector Forum 2025 at the King Abdul Aziz International Conference Center in Riyadh.",
+            "date": "Feb 2025"
+          },
+          {
+            "number": "03",
+            "title": "The Rise of Generative AI in Sports",
+            "desc": "The world of sports has always been a playground for innovation. From the introduction of instant replay to wearable tech.",
+            "date": "Oct 2025"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to lead the  future of sport?",
+        "desc": "Explore CaptainX and discover how AI and sports intelligence help your game, your team, and your legacy.",
+        "ctaButton": "Lets Talk"
+      },
+      "footer": {
+        "desc": "We help athletes, academies, federations, and clubs streamline, strategise, and scale.",
+        "quickLinksTitle": "Quick Links",
+        "quickLinks": [
+          { "key": "products", "label": "Products" },
+    { "key": "company", "label": "Company" },
+    { "key": "partners", "label": "Partners" },
+    { "key": "news", "label": "News & Insights" },
+    { "key": "careers", "label": "Careers" }
+        ],
+        "contactTitle": "Contact Us",
+        "phone": "+966-53 987 23 89",
+        "phonelink":"+996539872389",
+        "email": "info@captainx.ai",
+        "locationTitle": "Location",
+        "address": "CIE, KAAU, Jeddah, KSA",
+        "followTitle": "Follow Us On"
+      },
+      "transform": {
+        "topTitle": "Partners & Clients",
+        "title": "Transforming sports, side by side",
+        "btn": "Partner with us",
+        "centerText": "Partners global around"
+      },
+       "members": [
+        {
+          "img": "images/m1.png",
+          "name": "King Abdulaziz University"
+        },
+        {
+          "img": "images/m2.png",
+          "name": "Saudi badminton federation"
+        },
+        {
+         "img": "images/m3.png",
+          "name": "Zeetius"
+        },
+        {
+         "img": "images/m4.png",
+          "name": "qatar badminton association"
+        }
+      ]
+    },
+  "contactform": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "message": "Message",
+      "placeholderName": "Enter your name",
+      "placeholderEmail": "Enter your email",
+      "placeholderPhone": "Enter your phone number",
+      "placeholderMessage": "Type your message here...",
+      "submit": "Submit"
+    },
+    
+
+    "products":{
+      "heroTitle": "Smarter solutions, powered by intelligence",
+      "heroDesc": "A complete AI-powered digital suite designed to <br> transform the sports ecosystem.",
+      "exploreBtn": "Explore All",
+      "morequee":"Trusted clients",
+      "solutionTop": "CaptainX Suite",
+      "solutionTitle": "Everything you need to <br> win better",
+      "giftitle":"Beyond limits",
+      "proctatitle":"Ready to Power Your Sports Future?",
+      "proctadesc":"Explore CaptainX and discover how AI and sports intelligence help your game, your team, and your legacy.",
+      "proctabtn":"Explore Solutions",
+
+      "cardoverlay":[
+        {
+          "title":"CaptainX Academy",
+          "desc":"CaptainX Academy Solution is an intelligent performance and operations platform purpose-built for modern sports academies. By combining AI-powered analytics, automated workflows, and centralised data management, it transforms how organisations develop athletes and run daily operations.",
+          "btn":"See More",
+          "link":"/products/academy",
+          "image":"images/academy.png"
+
+        },
+        {
+          "title":"CaptainX Federations",
+          "desc":"CaptainX Federations is the intelligent solution for modern sports federations. Built with advanced automation and data intelligence at its core, our platform transforms day-to-day operations into a  seamless, connected experience.",
+          "btn":"See More",
+          "link":"/products/federations",
+          "image":"images/fedr.png"
+
+        },
+        {
+          "title":"CaptainX Tournaments",
+          "desc":"CaptainX Tournaments is more than just a management tool , it’s an intelligent solution designed to automate and enhance every stage of tournament operations. From smart event creation and seamless player onboarding to integrated marketing and dynamic player profiles,",
+          "btn":"See More",
+          "link":"/products/tournaments",
+          "image":"images/tourn.png"
+
+        },
+        {
+          "title":"CaptainX Live",
+          "desc":"CaptainX Live is redefining how tournaments are run with an intelligent sports technology platform built for the modern game. By combining real-time scoring with smart, automated event management tools, we empower organisers, athletes, and fans. ",
+          "btn":"See More",
+          "link":"/products/live",
+          "image":"images/live.png"
+
+        }
+        
+      ]
+     
+    },
+
+    "academy":{
+        "secTopTitle":"CaptainX Academies",
+        "title":"Empowering academies. Elevating athletes.",
+        "desc":"The complete digital suite designed to empower  sports academies and athlete development. ",
+        "btn":"Start Your Free Trial",
+        "futureTitle":"The future of academy management",
+        "futureDesc":" CaptainX empowers sports academies to streamline training, simplify operations, and strengthen communication, nurturing talent and scaling impact.",
+        "numspan":"%",
+        "num1":"+83",
+        "num1Desc":"improvement in training efficiency ",
+        "num2":"+76",
+        "num2Desc":" faster performance tracking and reporting",
+        "num3":"+52",
+        "num3Desc":"increase in athlete engagement ",
+        "keyFeautersTitle":"Key Features",
+        "keyFeauters":[
+          {
+            "title":"Athlete & Batch Management  ",
+            "desc":"Register, segment, and monitor athletes across age groups and training categories.",
+            "num":"01",
+            "img":"/images/gp-team.png"
+          },
+          {
+            "title":"Training Planning & Scheduling",
+            "desc":"Set custom training plans, allocate coaches, and manage session calendars effortlessly.",
+            "num":"02",
+           "img":"/images/gp-team.png"
+          },
+          {
+            "title":"Athlete Performance Analysis ",
+            "desc":"Track progress with detailed analytics and tech-based assessments to personalise training.",
+            "num":"03",
+            "img":"/images/gp-team.png"
+          },
+          {
+            "title":"Scheduling & Resource Allocation ",
+            "desc":" Efficiently manage practice schedules, court/facility booking, and resource utilisation.",
+            "num":"04",
+            "img":"/images/gp-team.png"
+          },
+          {
+            "title":"Parent Communication Portal ",
+            "desc":"Keep parents informed and engaged with real-time updates on athlete progress, schedules, and announcements.",
+            "num":"05",
+            "img":"/images/gp-team.png"
+          },
+          {
+            "title":"Reports & Analytics ",
+            "desc":"  Generate detailed reports on athlete performance, training outcomes, and operational metrics.",
+            "num":"06",
+            "img":"/images/gp-team.png"
+          }
+        ],
+
+        "platformTitle":"The Intelligent Platform",
+        "platformDesc":"Turn complex federation data into actionable strategies with predictive analytics.",
+
+        "platformlist1Title":"Data-Driven Development",
+        "platformlist1Desc":"Turn performance data into personalised training plans with actionable insights.",
+        "platformlist1icon":"/images/ico-3.svg",
+        
+       
+        "platformlist2Title":"Digital Ecosystem",
+        "platformlist2Desc":"Seamlessly connect coaches, athletes, parents, and staff through an integrated digital platform.",
+        "platformlist2icon":"/images/ico-1.svg",
+
+     
+        "platformlist3Title":"Smart Automation",
+        "platformlist3Desc":"Reduce manual overhead with intelligent workflows that manage scheduling, payments, and reporting in real time.",
+        "platformlist3icon":"/images/ico-4.svg",
+
+     
+        "platformlist4Title":"Secure Cloud Infrastructure",
+        "platformlist4Desc":"Access everything anytime, anywhere with enterprise-grade cloud security and compliance.",
+        "platformlist4icon":"/images/ico-2.svg",
+
+      "faqtitle":"Frequently asked questions",
+      "faqdesc":" From streamlining day-to-day operations to",
+      
+      "faqlist":[
+        {
+          "title":"What is CaptainX Academies, and who is it for?",
+          "desc":" CaptainX Academies is an AI-powered digital platform designed for sports academies to manage athletes, coaches, schedules, payments, performance, and communication. It’s built for academy owners, coaches, administrators, and training centres of any size to optimise operations and athlete development."
+        },
+        {
+          "title":"Can CaptainX Academies track athlete performance over time?",
+          "desc":"Yes. With AI-driven analytics, coaches can record assessments, test results, attendance, and achievements. The system then transforms these inputs into intelligent performance insights and shareable progress reports for athletes and parents."
+        },
+        {
+          "title":"How does CaptainX help with academy administration?",
+          "desc":" CaptainX automates and optimises daily operations such as registration, attendance, fee collection, communication, and staff management. Its AI automation engine reduces manual workload by up to 80%, improving efficiency and accuracy."
+        },
+        {
+          "title":"Is there a way to keep parents informed?",
+          "desc":"Absolutely. CaptainX Academies uses AI-enabled communication tools to send automated notifications, schedule updates, and personalised performance summaries, keeping parents consistently engaged and informed about their child’s progress."
+        },
+        {
+          "title":"Can the platform support multiple branches or training centres?",
+          "desc":"Yes. CaptainX Academies is a scalable AI-based ecosystem that seamlessly connects multiple branches or training centres under one unified dashboard, ensuring consistent data, insights, and operational control across all locations."
+        }
+      ],
+      "ctaTitle":"Empower Your <br> Federation Today",
+      "ctadesc":"Take the next step in digital transformation.",
+      "ctabutton":"Book a Free demo"
+
+    },
+
+    "federation":{
+        "secTopTitle":"Federations",
+        "title":"Seamless Governance. Smarter Decisions.",
+        "desc":"The complete digital suite designed to empower sports federations.",
+        "btn":"Start Your Free Trial",
+        "futureTitle":"The Future of Federation Management",
+        "futureDesc":" From streamlining day-to-day operations to enhancing transparency and member engagement, XFederation provides federations with the solutions they need to grow stronger, faster, and smarter.",
+        "numspan":"%",
+        "num1":"+92",
+        "num1Desc":"boost in operational efficiency",
+        "num2":"+84",
+        "num2Desc":" faster decision-making",
+        "num3":"+43",
+        "num3Desc":"increase in member engagement through digital interaction",
+        "keyFeautersTitle":"Key Features",
+        "keyFeauters":[
+          {
+            "title":"Player & Membership Management",
+            "desc":"Centralise member records, registrations, and renewals with ease.",
+            "num":"01",
+            "img":"/images/feda.png"
+          },
+          {
+            "title":"Technical Official Management ",
+            "desc":"Manage referees, coaches, and officials with transparent tracking tools.",
+            "num":"02",
+         "img":"/images/feda.png"
+          },
+          {
+            "title":"Tournament Planning",
+            "desc":"Centralise member records, registrations, and renewals with ease.",
+            "num":"03",
+           "img":"/images/feda.png"
+          },
+          {
+            "title":"Ranklist Preparation",
+            "desc":" Generate accurate rankings with real-time updates and performance tracking.",
+            "num":"04",
+          "img":"/images/feda.png"
+          },
+          {
+            "title":"Automated Email & SMS Interactions ",
+            "desc":" Keep members informed and engaged through scheduled communications.",
+            "num":"05",
+            "img":"/images/feda.png"
+          },
+          {
+            "title":"Reports & Analytics ",
+            "desc":" Unlock data insights to support growth, performance, and strategic planning.",
+            "num":"06",
+          "img":"/images/feda.png"
+          }
+        ],
+
+        "platformTitle":"The Intelligent Platform",
+        "platformDesc":"Turn complex federation data into actionable strategies with predictive analytics.",
+
+        "platformlist1Title":"AI-Powered Insights",
+        "platformlist1Desc":"Turn complex federation data into actionable strategies with predictive analytics.",
+        "platformlist1icon":"/images/ico-3.svg",
+        
+       
+        "platformlist2Title":"Digital Connectivity",
+        "platformlist2Desc":"Seamlessly connect different stakeholders through an integrated digital ecosystem.",
+        "platformlist2icon":"/images/ico-1.svg",
+
+     
+        "platformlist3Title":"Smart Automation",
+        "platformlist3Desc":"Reduce manual work with intelligent workflows that handle tasks in real time.",
+        "platformlist3icon":"/images/ico-4.svg",
+
+     
+        "platformlist4Title":"Secure Cloud Platform",
+        "platformlist4Desc":"Ensure data reliability, scalability, and 24/7 accessibility with enterprise-grade security.",
+        "platformlist4icon":"/images/ico-2.svg",
+
+      "faqtitle":"Frequently asked questions",
+      "faqdesc":" From streamlining day-to-day operations to",
+      
+      "faqlist":[
+        {
+          "title":"What is the CaptainX Federation?",
+          "desc":" CaptainX Federation is an AI-powered digital platform that equips sports organisations with intelligent tools to streamline operations, enhance communication, and drive growth. It helps federations automate workflows and leverage AI-driven analytics to improve performance and member engagement."
+        },
+        {
+          "title":"How does CaptainX Federation improve efficiency?",
+          "desc":" CaptainX Federation uses AI-enabled scheduling and performance tracking tools to simplify technical official management, ensuring smooth coordination, fair allocation, and transparent performance insights across events."
+        },
+        {
+          "title":"How does CaptainX Federation help with decision-making?",
+          "desc":"  The platform delivers AI-powered reports and predictive analytics, transforming raw data into actionable insights on performance, participation trends, and demographics, empowering sports organisations to make smarter, faster, and data-driven decisions."
+        },
+        {
+          "title":"What are the communication benefits of CaptainX Federation?",
+          "desc":"CaptainX Federation leverages AI-assisted communication tools with automated email and SMS integrations, enabling seamless, personalised updates and real-time coordination between members, officials, and participants."
+        }
+      ],
+      "ctaTitle":"Empower Your <br> Federation Today",
+      "ctadesc":"Take the next step in digital transformation.",
+      "ctabutton":"Book a Free demo"
+
+    },
+
+    "tournament":{
+        "secTopTitle":"CaptainX Tournaments", 
+        "title":"Seamless execution. Elevated experiences.",
+        "desc":"A complete digital solution to plan, manage, and deliver seamless sports events that captivate organisers, athletes, and fans alike.",
+        "btn":"Start Your Free Trial",
+        "futureTitle":"The future of tournament management",
+        "futureDesc":" From registrations and scheduling to live scoring and audience engagement, CaptainX Tournaments empowers organisers to conduct professional-grade tournaments with zero chaos and maximum impact.",
+        "numspan":"%",
+        "num1":"+83",
+        "num1Desc":"faster tournament setup",
+        "num2":"+76",
+        "num2Desc":"reduction in manual coordination",
+        "num3":"+52",
+        "num3Desc":" boost in player & spectator satisfaction",
+        "keyFeautersTitle":"Key Features",
+        "keyFeauters":[
+          {
+            "title":"Tournament Listing",
+            "desc":" Give players visibility through profiles, performance tracking, and digital certificates.",
+            "num":"01",
+           "img":"/images/tournament.png"
+          },
+          { 
+            "title":"Player Enrollment & Registration ",
+            "desc":" Simplify signups with digital forms, automated ID generation, and instant confirmations.",
+            "num":"02",
+           "img":"/images/tournament.png"
+          },
+          {
+            "title":"Draws & Schedules",
+            "desc":" Generate brackets, match formats, and court allocations in seconds.",
+            "num":"03",
+           "img":"/images/tournament.png"
+          },
+          {
+            "title":"Live Scoring & Results ",
+            "desc":"Real-time match updates accessible to players, parents, and fans anywhere.",
+            "num":"04",
+            "img":"/images/tournament.png"
+          },
+          {
+            "title":"Umpire & Official Management  ",
+            "desc":" Assign roles, notify officials, and track performance with ease.",
+            "num":"05",
+           "img":"/images/tournament.png"
+          },
+          {
+            "title":"Reports & Analytics ",
+            "desc":"Access performance insights, participation metrics, and operational data.",
+            "num":"06",
+             "img":"/images/tournament.png"
+          }
+        ],
+
+        "platformTitle":"The Intelligent Platform",
+        "platformDesc":"Turn complex federation data into actionable strategies with predictive analytics.",
+
+        "platformlist1Title":"Athlete-Centric Design",
+        "platformlist1Desc":"TGive players visibility through profiles, performance tracking, and digital certificates.",
+        "platformlist1icon":"/images/ico-3.svg",
+        
+       
+        "platformlist2Title":"Digital Engagement",
+        "platformlist2Desc":"Connect athletes, coaches, and spectators through live updates and interactive features.",
+        "platformlist2icon":"/images/ico-1.svg",
+
+     
+        "platformlist3Title":"Secure Cloud Infrastructure",
+        "platformlist3Desc":"Reliable, scalable, and accessible anytime, built for organisers that demand excellence.",
+        "platformlist3icon":"/images/ico-4.svg",
+
+     
+        "platformlist4Title":"Revenue Enablement",
+        "platformlist4Desc":"Unlock monetisation through sponsorships, ads, and premium streaming options.",
+        "platformlist4icon":"/images/ico-2.svg",
+
+      "faqtitle":"Frequently asked questions",
+      "faqdesc":" From streamlining day-to-day operations to",
+      
+      "faqlist":[
+        {
+          "title":"Who can benefit from CaptainX Tournaments?",
+          "desc":" Sports organisations, event managers, clubs, and tournament organisers looking to enhance efficiency, streamline operations, and deliver unforgettable experiences for players and fans through AI-driven automation and insights."
+        },
+        {
+          "title":"What sports are currently available?",
+          "desc":" CaptainX Tournaments supports 20+ sports, including Badminton, Table Tennis, Pickleball, Volleyball, Basketball, Football, Hockey, Handball, Mallakhamba, Chessboxing, and Wrestling, with continuous expansion driven by AI-powered adaptability."
+        },
+        {
+          "title":"Is the platform suitable for managing large-scale events?",
+          "desc":"Absolutely. With intelligent official management, automated umpire allocation, and bulk certificate generation, CaptainX’s AI-backed system is built to handle large-scale, multi-sport tournaments effortlessly."
+        },
+        {
+          "title":"Can we customise the platform with our logo and branding?",
+          "desc":"Yes! CaptainX Tournaments offers complete white-labelling options, enabling your organisation to fully integrate your branding and create a unified digital experience that feels uniquely yours."
+        }
+      ],
+      "ctaTitle":"Elevate your tournaments ",
+      "ctadesc":"Take the next step in digital transformation. ",
+      "ctabutton":"Book a Free demo"
+
+    },
+
+    "live":{
+        "secTopTitle":"CaptainX Live", 
+        "title":"Real-time sports. Real-time impact.",
+        "desc":"The ultimate solution for seamless sports live scoring, streaming, and management.",
+        "btn":"Start Your Free Trial",
+        "futureTitle":"The future of live sports management",
+        "futureDesc":"From instant score updates to immersive live streaming, CaptainX Live makes managing sports tournaments effortless.",
+        "numspan":"%",
+        "numsx":"X",
+        "num1":"+97",
+        "num1Desc":"Fewer score delays",
+        "num2":"+93",
+        "num2Desc":"Faster match operations",
+        "num3":"+3",
+        "num3Desc":"Boost in fan engagement ",
+        "keyFeautersTitle":"Key Features",
+        "keyFeauters":[
+          {
+            "title":"Time, Score, and Results (TSR) ",
+            "desc":"Deliver real-time match scores, statistics, and final outcomes directly to web and mobile devices.",
+            "num":"01",
+            "img":"/images/tourna.png"
+          },
+          { 
+            "title":"Court & Venue Management ",
+            "desc":" Optimise court allocation, scheduling, and resource utilisation for smooth event flow.",
+            "num":"02",
+            "img":"/images/tourna.png"
+          },
+          {
+            "title":"Umpire & Officials Management ",
+            "desc":"Assign, notify, and track umpire performance through structured workflows.",
+            "num":"03",
+           "img":"/images/tourna.png"
+          },
+          {
+            "title":"Integrated Live Streaming  ",
+            "desc":"Broadcast matches live with overlayed scorecards and dynamic graphics for a professional viewer experience",
+            "num":"04",
+           "img":"/images/tourna.png"
+          },
+          {
+            "title":"Reports & Analytics ",
+            "desc":" Access match summaries, participant data, engagement metrics, and event-wide insights",
+            "num":"05",
+            "img":"/images/tourna.png"
+          },
+          {
+            "title":"Advertisement Module ",
+            "desc":"Creates new revenue opportunities through custom advertising and sponsorships.",
+            "num":"06",
+            "img":"/images/tourna.png"
+          }
+        ],
+
+        "platformTitle":"The Intelligent Platform",
+        "platformDesc":"Turn complex federation data into actionable strategies with predictive analytics.",
+
+        "platformlist1Title":"AI-powered Match Insights",
+        "platformlist1Desc":"Transform match data into strategic insights with predictive analytics and performance tracking.",
+        "platformlist1icon":"/images/ico-3.svg",
+        
+       
+        "platformlist2Title":"Automated Workflows ",
+        "platformlist2Desc":"Eliminate repetitive coordination work with automated updates, notifications, and scheduling.",
+        "platformlist2icon":"/images/ico-1.svg",
+
+     
+        "platformlist3Title":"Fan-centric Digital Experience",
+        "platformlist3Desc":"Deliver live scoreboards, commentary, clips, and highlights, accessible globally across devices.",
+        "platformlist3icon":"/images/ico-4.svg",
+
+     
+        "platformlist4Title":"Secure & Scalable Cloud Infrastructure",
+        "platformlist4Desc":"Run tournaments of any size, from club events to international championships with zero downtime.",
+        "platformlist4icon":"/images/ico-2.svg",
+
+      "faqtitle":"Frequently asked questions",
+      "faqdesc":" From streamlining day-to-day operations to",
+      
+      "faqlist":[
+        {
+          "title":"What is CaptainX Live?",
+          "desc":"CaptainX Live is an AI-powered sports management platform that brings live scoring, streaming, and tournament operations together into one seamless ecosystem. It helps organisers, academies, and federations deliver professional-grade events with unmatched speed, accuracy, and fan engagement."
+        },
+        {
+          "title":"How does CaptainX Live use AI to enhance match operations?",
+          "desc":" Our AI engine analyses match data in real time to generate predictive insights, optimise scheduling, and eliminate manual delays. From detecting score inconsistencies to suggesting optimal court allocations, AI ensures every tournament runs smoother and faster."
+        },
+        {
+          "title":"Can CaptainX Live handle large-scale tournaments?",
+          "desc":"Absolutely. Built on a secure, scalable cloud infrastructure, CaptainX Live supports everything from small club events to international championships,  ensuring zero downtime and consistent real-time performance across all devices."
+        },
+        {
+          "title":"What features make CaptainX Live different from other sports management tools?",
+          "desc":" CaptainX Live integrates real-time scoring, AI-powered analytics, live streaming with dynamic overlays, umpire management, automated workflows, and advertising modules. It’s the complete solution for organisers who want to execute, monitor, and monetise their events effortlessly."
+        },
+        {
+          "title":"How does CaptainX Live improve fan engagement?",
+          "desc":" Fans get a front-row digital experience with instant scoreboards, AI-curated match highlights, live commentary, and video clips accessible anywhere. By turning live data into engaging stories, CaptainX Live keeps audiences connected and excited throughout every match."
+        }
+      ],
+      "ctaTitle":"Empower your tournaments ",
+      "ctadesc":"Take the next step in digital transformation. ",
+      "ctabutton":"Book a Free demo"
+
+    },
+    
+    "company":{
+        "title":"Building legacies with <br /> sports technology",
+        "secTopTitle":"Our story",
+        "secTitle":"Designed for the future",
+        "secdesc":"Headquartered in Jeddah and driven by the spirit of Saudi Vision 2030, we fuse advanced AI, deep sports intelligence, and scalable digital ecosystems to empower federations, clubs, academies, and next-generation champions. With data-driven precision and unmatched performance clarity, we are engineering the future of sport, smarter, faster, and more sustainable than ever before.",
+        "cardTitle":"Vision & Mission",
+        "maptitle":"From Saudi Arabia to the World",
+        "ctatitle":"Invest in the <br> future of sport",
+        "ctadesc":"As a company setting the pace in sports technology, CaptainX is turning a bold vision into reality. If you believe technology will shape the champions of tomorrow, let’s connect and make it happen.",
+        "ctaButton":"Reach out",
+        
+        "card":[
+          {
+            "num":"01",
+            "title":"Vision",
+            "desc":"To become the leading sports technology ecosystem through innovative AI-driven solutions."
+          },
+          {
+            "num":"02",
+            "title":"Mission",
+            "desc":"To deliver AI-powered, user-focused platforms that drive holistic and seamless digital transformation."
+          },
+          {
+            "num":"03",
+            "title":"Values",
+            "desc":"Driven by innovation, powered by AI, and inspired by purpose, we are building a connected, intelligent, and sustainable future for sport."
+          }
+        ],
+          "sustable":{
+          "sectoptitle":"Sustainability",
+          "title":"Innovation that respects the future",
+          "desc":"Sustainability is at the heart of everything we do. Through responsible technology, we empower sports ecosystems to excel while promoting equity, inclusion, and environmental responsibility, creating lasting value for athletes, academies, federations, governments and communities.",
+          "card1":" Driving performance with purpose, ensuring every innovation uplifts people, communities, and the planet.",
+          "card2":"Building smarter, greener sports ecosystems where technology and responsibility go hand in hand."
+        },
+       "board":{
+         "director":[
+          {
+            "name":"Nazih Al-Naser",
+            "role":"Strategic Leader",
+            "img":"/images/pep1.png"
+          },
+          {
+            "name":"Krishnakumar N",
+            "role":"Technology  Lead",
+            "img":"/images/pep2.png"
+          },
+          {
+            "name":"Arjun Anand",
+            "role":"Operations & Strategy Lead",
+            "img":"/images/pep3.png"
+          },
+          {
+            "name":"Abdullah Khamis, Ph.D.",
+            "role":"Advisor-AI & ML",
+            "img":"/images/pep4.png"
+          },
+          {
+            "name":"Ahmed Balkhair",
+            "role":"Advisor-Digital Strategy",
+            "img":"/images/pep5.png"
+          },
+          {
+            "name":"Paul Loiacono",
+            "role":"Advisor-Strategic Growth",
+            "img":"/images/pep6.png"
+          }
+          
+        ],
+         "sectoptitle":"People",
+       "secboardtitle":"Brains behind the game",
+       "secboarddesc":"At the helm of CaptainX is a distinguished team of visionary leaders, pioneers in sports technology, digital innovation, and business strategy. Their collective experience provides the strategic oversight, corporate governance, and market intelligence necessary to drive sustainable growth and long-term value.",
+
+       "btn1":"Board of directors",
+       "btn2":"Advisory board"
+      
+       }
+    },
+
+    "partner":{
+      "title":"Partnering the Future of Sports ",
+      "desc":"Inspired by Saudi Vision 2030, we bring together technology and visionaries to shape the future of sports.",
+      "btn":"Become a Partner",
+      "cardlaptitle":"Why Partner With Us",
+      "typetoptitle":"Partnership Models",
+      "typetitle":"Partnerships that deliver real transformation",
+      "typedesc":"We believe true transformation in sport happens when technology and visionaries unite.",
+      "sucesstoptitle":"Types of Partnerships",
+      "sucessTitle":"50 + Partners Success",
+      "sucessDesc":"At SportX, we believe transformation in sports  happens when technology and visionaries unite.",
+      "morequee":"Trusted by Innovators",
+      "morqueetitle":"United by one vision",
+      "ctatitle":"Let’s build the future, in every athlete.",
+      "ctadesc":"Join us in shaping the next era of sports technology and innovation.",
+      "ctabtn":"Become a Partner",
+      "cardlap":[
+        {
+          "title":"Aligned with Vision 2030",
+          "desc":"Join a movement that is redefining sporting excellence in the Kingdom.",
+          "img":"images/cardlaps1.png"
+
+        },
+        {
+          "title":"Mutual Growth",
+          "desc":" Drive revenue, amplify your brand, and unlock new channels of engagement.",
+            "img":"images/cardlap2.png"
+
+        },
+        {
+          "title":"Global Reach",
+          "desc":"Connect with players, organisers, and fans across international markets.",
+            "img":"images/cardlap3.png"
+        }
+      ],
+      "types":[
+        {
+          "img":"images/w-brain-icon.svg",
+          "title":"Sports Federations & Clubs",
+          "desc":"Digitise operations, optimise tournaments, and engage fans with immersive tech."
+        },
+        {
+          "img":"images/w-brain-icon.svg",
+          "title":"Sports Academies & Institutions",
+          "desc":"Empower athletes with insights, scouting, and smarter coaching."
+        },
+        {
+          "img":"images/w-brain-icon.svg",
+          "title":"Technology Partners",
+          "desc":"Collaborate with us on co-innovation projects, joint ventures"
+        },
+        {
+          "img":"images/w-brain-icon.svg",
+          "title":"Alliances & Investors",
+          "desc":"Invest in future-ready tech driving Vision 2030."
+        }
+      ]
+      
+    },
+
+    "careers":{
+      "careertitle":"Purpose-driven. <span>People</span> powered.",
+      "desc":" A complete AI-powered digital suite designed to",
+      "careerBtn":"View openings",
+      "lifetitle":"Life @ Captain x",
+      "lifedesc":"Every team member is a catalyst for change, driven by the power of sport to unite, inspire, and elevate.",
+      "bottitle":"Culture",
+      "botdesc":" We believe in teamwork, on and off the field. Our culture celebrates curiosity, innovation, empathy, and collaboration.",
+      "openingtitle":"Current openings",
+      "openingdesc":"When you join CaptainX, you join a team that plays to win, for athletes, for the country, and for the future.",
+      "openingtitle2":"Can’t find what you’re looking for?",
+      "openingdesc2":"When you join CaptainX, you join a team that plays to win, for athletes, for the country, and for the future.",
+    
+    "openingaccord": [
+      {
+        "title": "Product Design",
+        "desc": "CaptainX Federation simplifies technical official management by providing tools for scheduling, performance tracking, and communication, ensuring smooth coordination for events.",
+        "btn": "I’m Interested",
+        "lists": [
+          {
+            "list": "Provide voice-based support to international/domestic customers over the phone (Inbound and Outbound)."
+          },
+          {
+            "list": "Build a rapport with customers with clear and confident communication."
+          },
+          {
+            "list": "Focus on customer satisfaction and first-time-resolution."
+          },
+          {
+            "list": "Engage with the technical team to provide faster resolutions to technical issues."
+          },
+          {
+            "list": "Work closely with the technical content team to identify gaps in the help module."
+          },
+          {
+            "list": "Should be willing to work night shifts."
+          }
+        ]
+      },
+      {
+        "title": "Backend Engineer",
+        "desc": "CaptainX Federation simplifies technical official management by providing tools for scheduling, performance tracking, and communication, ensuring smooth coordination for events.",
+        "btn": "I’m Interested",
+        "lists": [
+          {
+            "list": "Provide voice-based support to international/domestic customers over the phone (Inbound and Outbound)."
+          },
+          {
+            "list": "Build a rapport with customers with clear and confident communication."
+          },
+          {
+            "list": "Focus on customer satisfaction and first-time-resolution."
+          },
+          {
+            "list": "Engage with the technical team to provide faster resolutions to technical issues."
+          },
+          {
+            "list": "Work closely with the technical content team to identify gaps in the help module."
+          },
+          {
+            "list": "Should be willing to work night shifts."
+          }
+        ]
+      },
+      {
+        "title": "Full stack Engineer",
+        "desc": "CaptainX Federation simplifies technical official management by providing tools for scheduling, performance tracking, and communication, ensuring smooth coordination for events.",
+        "btn": "I’m Interested",
+        "lists": [
+          {
+            "list": "Provide voice-based support to international/domestic customers over the phone (Inbound and Outbound)."
+          },
+          {
+            "list": "Build a rapport with customers with clear and confident communication."
+          },
+          {
+            "list": "Focus on customer satisfaction and first-time-resolution."
+          },
+          {
+            "list": "Engage with the technical team to provide faster resolutions to technical issues."
+          },
+          {
+            "list": "Work closely with the technical content team to identify gaps in the help module."
+          },
+          {
+            "list": "Should be willing to work night shifts."
+          }
+        ]
+      },
+      {
+        "title": "Devops Engineer",
+        "desc": "CaptainX Federation simplifies technical official management by providing tools for scheduling, performance tracking, and communication, ensuring smooth coordination for events.",
+        "btn": "I’m Interested",
+        "lists": [
+          {
+            "list": "Provide voice-based support to international/domestic customers over the phone (Inbound and Outbound)."
+          },
+          {
+            "list": "Build a rapport with customers with clear and confident communication."
+          },
+          {
+            "list": "Focus on customer satisfaction and first-time-resolution."
+          },
+          {
+            "list": "Engage with the technical team to provide faster resolutions to technical issues."
+          },
+          {
+            "list": "Work closely with the technical content team to identify gaps in the help module."
+          },
+          {
+            "list": "Should be willing to work night shifts."
+          }
+        ]
+      }
+  ]
+
+
+    
+    },
+
+    "contact":{
+      "contacttitle":"Lets talk",
+      "contactdesc":"We help athletes, academies, federations, and clubs streamline, strategise, and scale.",
+      "email":"Email",
+      "phone":"Phone",
+      "location":"Location",
+      "address":"Center For Innovation & Entrepreneurship,King Abdulaziz University Jeddah, Kingdom of Saudi Arabia",
+      "follow":"Follow Us On"
+    },
+
+    "notfound":{
+      "sectitle":"<span>Captain X </span> Lost in Space",
+      "desc":"Looks like our captain took a wrong turn in the galaxy. Let’s help you navigate back to home base.",
+      "btn":"Back to Home"
+    },
+    "underconstruc":{
+      "sectitle":"<span>Captain X</span> is building this page.",
+      "desc":"It’s not ready yet, but something exciting is on the way. Stay tuned!",
+      "btn":"Back to Home"
+    }
+  
+  },
+
+
+  "ar": {
+     "navbar": {
+      "navlinks": [
+        { "key": "products", "label": "المنتجات" },
+        { "key": "company", "label": "الشركة" },
+        { "key": "partners", "label": "الشركاء" },
+        { "key": "news", "label": "الأخبار والرؤى" },
+        { "key": "careers", "label": "الوظائف" }
+      ],
+      
+
+"productdrop": [
+  { "key": "academy", "label": "أكاديمية كابتن إكس","anchor": "#academy"  },
+  { "key": "federations", "label": "اتحادات كابتن إكس" ,"anchor": "#federations"},
+  { "key": "tournaments", "label": "بطولات كابتن إكس","anchor": "#tournaments"  },
+  { "key": "live", "label": "كابتن إكس مباشر","anchor": "#live" }
+],
+
+      "companydrop": [
+  { "key": "our-story", "label": "قصتنا", "anchor": "#our-story" },
+  { "key": "vision", "label": "الرؤية والرسالة", "anchor": "#vision" },
+  { "key": "people", "label": "فريق العمل", "anchor": "#people" },
+  { "key": "sustainability", "label": "الاستدامة", "anchor": "#sustainability" }
+],
+"letsTalk": "تحدث معنا"
+
+    },
+
+   
+ "home": {
+  "heroTitle": "المستقبل في كل <span>رياضي</span>.",
+  "heroDesc": "ارتقِ بالأداء، وأعد تعريف الإمكانات، وابنِ أبطال الغد من خلال التكنولوجيا المعتمدة على البيانات.",
+  "exploreBtn": "اكتشف المزيد",
+  "scrollDown": "مرّر للأسفل",
+  "solutionTop": "نحن من أجل",
+  "solutionTitle": "مبني للفوز في اللعب.",
+  "keyValueTop": "العامل X",
+  "keyValueTitle": "مستقبل الذكاء الرياضي",
+  "keyValueDesc": "نحن ندمج الذكاء الاصطناعي والتحليلات والطموح البشري لتمكين الرياضيين والأكاديميات والاتحادات والأندية والمؤسسات من قيادة التطور القادم في الرياضة.",
+  "cardBox": [
+    {
+      "title": "اللاعبون",
+      "desc": "تمكين اللاعبين من خلال تحسين أدائهم عبر التحليلات المعتمدة على البيانات، لمساعدتهم على إبراز مهاراتهم والبقاء في الصدارة.",
+      "text1": "اللاعبون",
+      "text2": "اللاعب"
+    },
+    {
+      "title": "المنظمات",
+      "desc": "تمكين الأكاديميات والاتحادات والأندية والمؤسسات من رفع المعايير، وإطلاق المواهب، وتحقيق التميز في العمليات على كل المستويات.",
+      "text1": "الأكاديميات",
+      "text2": "الأكاديميات والمؤسسات",
+      "text3": "الاتحادات والأندية"
+    },
+    {
+      "title": "المشجعون",
+      "desc": "جلب المشجعين أقرب إلى الحدث، وتعزيز الإثارة، وتحويل كل مباراة إلى تجربة لا تُنسى.",
+      "text1": "المشجعون",
+      "text2": "الأكاديميات"
+    }
+  ],
+  "accordion": [
+    {
+      "title": "رؤى قائمة على الرياضي أولاً",
+      "desc": "تُحوّل خوارزميات التعلم الآلي المتقدمة بيانات اللعب إلى إنجازات أداء شخصية.",
+      "image": "images/accor-1.png"
+    },
+    {
+      "title": "منظومات متميزة",
+      "desc": "تجمع CaptainX العالم الرياضي من خلال ذكاء يعزز الإيرادات والمشاركة والنمو.",
+      "image": "images/accor-2.png"
+    },
+    {
+      "title": "من السعودية إلى العالم",
+      "desc": "تقود CaptainX النمو القائم على البيانات لتطوير الابتكار الرياضي ووضع السعودية في موقع الريادة عالميًا.",
+      "image": "images/accor-3.png"
+    }
+  ],
+  "videoSlider": {
+    "topTitle": "المنتجات",
+    "title": "تجاوز العادي",
+    "slides": [
+      {
+        "title": "CaptainX للأكاديميات",
+        "desc": "ارتقِ بنمو الرياضيين وبسّط إدارة الأكاديمية من خلال منصة تجمع البيانات وتؤتمت العمليات وتوفر رؤى قابلة للتنفيذ.",
+        "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "image": "/images/tournaments.gif",
+        "link": "/products/academy"
+      },
+      {
+        "title": "CaptainX للاتحادات",
+        "desc": "مكّن منظمتك الرياضية بحلول رقمية ذكية لتبسيط العمليات وتحسين التواصل وتحقيق النمو عبر الأتمتة.",
+        "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "image": "/images/federation.gif",
+        "link": "/products/federations"
+      },
+      {
+        "title": "CaptainX للبطولات",
+        "desc": "تبسّط CaptainX إدارة البطولات، من التسجيل إلى التسويق وتعريف اللاعبين.",
+        "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "image": "/images/tournaments-gif.gif",
+        "link": "/products/tournaments"
+      }
+    ],
+    "seeMore": "عرض المزيد",
+    "viewlink": "/products",
+    "viewAll": "عرض الكل"
+  },
+  "company": {
+    "keyValueTop": "الشركة",
+    "keyValueTitle": "العقول وراء اللعبة",
+    "keyValueDesc": "مدفوعة بروح رؤية السعودية 2030 ومن خلال حلول ذكية قائمة على الذكاء الاصطناعي، نُشعل الأداء والنمو في جميع قطاعات الرياضة — من الجذور إلى القمة.",
+    "image": "images/team.png",
+    "learnmore": "اعرف المزيد"
+  },
+  "newsCard": {
+    "topTitle": "الأخبار والرؤى",
+    "title": "ما وراء لوحة النتائج",
+    "viewall": "عرض الكل",
+    "news": [
+      {
+        "number": "01",
+        "title": "المشاركة في مؤتمر LEAP 2025",
+        "desc": "شاركت CaptainX بفخر في مؤتمر LEAP 2025، المنصة العالمية الرائدة التي تشكّل مستقبل التكنولوجيا.",
+        "date": "فبراير 2025"
+      },
+      {
+        "number": "02",
+        "title": "المشاركة في منتدى صندوق الاستثمارات العامة 2025",
+        "desc": "شاركت CaptainX في منتدى صندوق الاستثمارات العامة - القطاع الخاص 2025 في مركز الملك عبد العزيز الدولي للمؤتمرات بالرياض.",
+        "date": "فبراير 2025"
+      },
+      {
+        "number": "03",
+        "title": "صعود الذكاء الاصطناعي التوليدي في الرياضة",
+        "desc": "لطالما كانت الرياضة ساحة للابتكار — من إعادة اللقطات إلى التكنولوجيا القابلة للارتداء.",
+        "date": "أكتوبر 2025"
+      }
+    ]
+  },
+  "cta": {
+    "title": "هل أنت مستعد لقيادة مستقبل الرياضة؟",
+    "desc": "استكشف CaptainX واكتشف كيف يساعد الذكاء الاصطناعي والذكاء الرياضي في تطوير لعبتك وفريقك وإرثك.",
+    "ctaButton": "تحدث معنا"
+  },
+  "footer": {
+    "desc": "نساعد الرياضيين والأكاديميات والاتحادات والأندية على التنظيم والتخطيط والنمو.",
+    "quickLinksTitle": "روابط سريعة",
+    "quickLinks": [
+      { "key": "products", "label": "المنتجات" },
+      { "key": "company", "label": "الشركة" },
+      { "key": "partners", "label": "الشركاء" },
+      { "key": "news", "label": "الأخبار والرؤى" },
+      { "key": "careers", "label": "الوظائف" }
+    ],
+    "contactTitle": "تواصل معنا",
+    "phone": "+966-53 987 23 89",
+    "phonelink": "+996539872389",
+    "email": "info@captainx.ai",
+    "locationTitle": "الموقع",
+    "address": "CIE، جامعة الملك عبدالعزيز، جدة، المملكة العربية السعودية",
+    "followTitle": "تابعنا على"
+  },
+  "transform": {
+    "topTitle": "الشركاء والعملاء",
+    "title": "نحو تحول رياضي معًا",
+    "btn": "كن شريكًا لنا",
+    "centerText": "شركاؤنا حول العالم"
+  },
+  "members": [
+    {
+      "img": "images/m1.png",
+      "name": "جامعة الملك عبدالعزيز"
+    },
+    {
+      "img": "images/m2.png",
+      "name": "الاتحاد السعودي للريشة الطائرة"
+    },
+    {
+      "img": "images/m3.png",
+      "name": "Zeetius"
+    },
+    {
+      "img": "images/m4.png",
+      "name": "الاتحاد القطري للريشة الطائرة"
+    }
+  ]
+},
+
+
+ "contactform": {
+  "fullName": "الاسم الكامل",
+  "email": "البريد الإلكتروني",
+  "phone": "رقم الهاتف",
+  "message": "الرسالة",
+  "placeholderName": "أدخل اسمك",
+  "placeholderEmail": "أدخل بريدك الإلكتروني",
+  "placeholderPhone": "أدخل رقم هاتفك",
+  "placeholderMessage": "اكتب رسالتك هنا...",
+  "submit": "إرسال"
+},
+
+
+"products": {
+  "heroTitle": "حلول أذكى مدعومة بالذكاء",
+  "heroDesc": "مجموعة رقمية متكاملة مدعومة بالذكاء الاصطناعي <br> مصممة لتحويل نظام الرياضة بأكمله.",
+  "exploreBtn": "استكشف الكل",
+  "morequee": "عملاء موثوقون",
+  "solutionTop": "مجموعة Xsuite",
+  "solutionTitle": "حلول أذكى، <br/> مدعومة بالذكاء",
+  "giftitle": "ما وراء الحدود",
+  "proctatitle": "هل أنت مستعد لدفع مستقبل الرياضة؟",
+  "proctadesc": "استكشف CaptainX واكتشف كيف يساعد الذكاء الاصطناعي وذكاء الرياضة في تطوير لعبتك وفريقك وإرثك.",
+  "proctabtn": "استكشف الحلول",
+
+  "cardoverlay": [
+    {
+      "title": "CaptainX Academy",
+      "desc": "حل CaptainX Academy هو منصة ذكية للأداء والإدارة مصممة خصيصًا للأكاديميات الرياضية الحديثة. من خلال دمج التحليلات المعززة بالذكاء الاصطناعي، وأتمتة العمليات، وإدارة البيانات المركزية، فإنه يغير الطريقة التي تطور بها المؤسسات الرياضيين وتدير عملياتها اليومية.",
+      "btn": "عرض المزيد",
+      "link": "/products/academy",
+      "image": "images/academy.png"
+    },
+    {
+      "title": "CaptainX Federations",
+      "desc": "CaptainX Federations هو الحل الذكي للاتحادات الرياضية الحديثة. تم بناؤه باستخدام الأتمتة المتقدمة وذكاء البيانات في جوهره، حيث يحول العمليات اليومية إلى تجربة سلسة ومتصلة.",
+      "btn": "عرض المزيد",
+      "link": "/products/federations",
+      "image": "images/fedr.png"
+    },
+    {
+      "title": "CaptainX Tournaments",
+      "desc": "CaptainX Tournaments هو أكثر من مجرد أداة إدارة، إنه حل ذكي مصمم لأتمتة وتحسين كل مرحلة من مراحل إدارة البطولات. بدءًا من إنشاء الأحداث الذكي وتسجيل اللاعبين بسلاسة إلى التسويق المتكامل والملفات الشخصية الديناميكية للاعبين.",
+      "btn": "عرض المزيد",
+      "link": "/products/tournaments",
+      "image": "images/tourn.png"
+    },
+    {
+      "title": "CaptainX Live",
+      "desc": "CaptainX Live يعيد تعريف طريقة إدارة البطولات من خلال منصة تكنولوجيا رياضية ذكية مصممة للعبة الحديثة. من خلال الجمع بين النتائج في الوقت الفعلي وأدوات إدارة الأحداث الذكية، نُمكِّن المنظمين والرياضيين والجماهير.",
+      "btn": "عرض المزيد",
+      "link": "/products/live",
+      "image": "images/live.png"
+    }
+  ]
+},
+
+"academy": {
+  "secTopTitle": "CaptainX Academies",
+  "title": "تمكين الأكاديميات. رفع مستوى الرياضيين.",
+  "desc": "مجموعة رقمية متكاملة مصممة لتمكين الأكاديميات الرياضية وتطوير الرياضيين.",
+  "btn": "ابدأ تجربتك المجانية",
+  
+  "futureTitle": "مستقبل إدارة الأكاديميات",
+  "futureDesc": "تساعد CaptainX الأكاديميات الرياضية على تبسيط التدريب، وتسهيل العمليات، وتعزيز التواصل، لتنمية المواهب وتوسيع التأثير.",
+  
+  "numspan": "%",
+  "num1": "+83",
+  "num1Desc": "تحسين في كفاءة التدريب",
+  "num2": "+76",
+  "num2Desc": "تتبع وأداء أسرع في التقارير",
+  "num3": "+52",
+  "num3Desc": "زيادة في تفاعل الرياضيين",
+
+  "keyFeautersTitle": "الميزات الرئيسية",
+  "keyFeauters": [
+    {
+      "title": "إدارة الرياضيين والمجموعات",
+      "desc": "سجّل، صنّف، وراقب الرياضيين عبر الفئات العمرية ومجموعات التدريب المختلفة.",
+      "num": "01",
+      "img": "/images/gp-team.png"
+    },
+    {
+      "title": "تخطيط وجدولة التدريب",
+      "desc": "أنشئ خطط تدريب مخصصة، وخصص المدربين، وأدر جداول الجلسات بسهولة.",
+      "num": "02",
+      "img": "/images/gp-team.png"
+    },
+    {
+      "title": "تحليل أداء الرياضيين",
+      "desc": "تتبع التقدم باستخدام التحليلات التفصيلية والتقييمات التقنية لتخصيص التدريب.",
+      "num": "03",
+      "img": "/images/gp-team.png"
+    },
+    {
+      "title": "الجدولة وتخصيص الموارد",
+      "desc": "قم بإدارة جداول التدريب وحجوزات الملاعب والمرافق واستخدام الموارد بكفاءة.",
+      "num": "04",
+      "img": "/images/gp-team.png"
+    },
+    {
+      "title": "بوابة تواصل أولياء الأمور",
+      "desc": "أبقِ أولياء الأمور على اطلاع ومشاركة من خلال التحديثات الفورية حول تقدم الرياضيين والجداول والإعلانات.",
+      "num": "05",
+      "img": "/images/gp-team.png"
+    },
+    {
+      "title": "التقارير والتحليلات",
+      "desc": "أنشئ تقارير تفصيلية حول أداء الرياضيين ونتائج التدريب والمؤشرات التشغيلية.",
+      "num": "06",
+      "img": "/images/gp-team.png"
+    }
+  ],
+
+  "platformTitle": "المنصة الذكية",
+  "platformDesc": "حوّل بيانات الأكاديمية المعقدة إلى استراتيجيات عملية باستخدام التحليلات التنبؤية.",
+
+  "platformlist1Title": "تطوير قائم على البيانات",
+  "platformlist1Desc": "حوّل بيانات الأداء إلى خطط تدريب مخصصة مع رؤى قابلة للتنفيذ.",
+  "platformlist1icon": "/images/ico-3.svg",
+
+  "platformlist2Title": "نظام رقمي متكامل",
+  "platformlist2Desc": "اربط المدربين والرياضيين وأولياء الأمور والموظفين من خلال منصة رقمية موحدة.",
+  "platformlist2icon": "/images/ico-1.svg",
+
+  "platformlist3Title": "أتمتة ذكية",
+  "platformlist3Desc": "قلل العمل اليدوي باستخدام سير عمل ذكي يدير الجداول والمدفوعات والتقارير في الوقت الفعلي.",
+  "platformlist3icon": "/images/ico-4.svg",
+
+  "platformlist4Title": "بنية تحتية سحابية آمنة",
+  "platformlist4Desc": "يمكنك الوصول إلى كل شيء في أي وقت ومن أي مكان مع أمان سحابي من مستوى المؤسسات.",
+  "platformlist4icon": "/images/ico-2.svg",
+
+  "faqtitle": "الأسئلة الشائعة",
+  "faqdesc": "من تبسيط العمليات اليومية إلى تعزيز الأداء.",
+
+  "faqlist": [
+    {
+      "title": "ما هي CaptainX Academies ولمن تم تصميمها؟",
+      "desc": "CaptainX Academies هي منصة رقمية مدعومة بالذكاء الاصطناعي مصممة للأكاديميات الرياضية لإدارة الرياضيين والمدربين والجداول والمدفوعات والأداء والتواصل. تم إنشاؤها لأصحاب الأكاديميات والمدربين والإداريين ومراكز التدريب من أي حجم لتحسين العمليات وتطوير الرياضيين."
+    },
+    {
+      "title": "هل يمكن لـ CaptainX تتبع أداء الرياضيين مع مرور الوقت؟",
+      "desc": "نعم، من خلال التحليلات القائمة على الذكاء الاصطناعي، يمكن للمدربين تسجيل التقييمات والاختبارات والحضور والإنجازات. يحوّل النظام هذه البيانات إلى رؤى أداء ذكية وتقارير تقدم يمكن مشاركتها مع الرياضيين وأولياء الأمور."
+    },
+    {
+      "title": "كيف تساعد CaptainX في إدارة الأكاديمية؟",
+      "desc": "تقوم CaptainX بأتمتة وتحسين العمليات اليومية مثل التسجيل والحضور وجمع الرسوم والتواصل وإدارة الموظفين. تقلل محركات الأتمتة الذكية من عبء العمل اليدوي بنسبة تصل إلى 80٪ مما يحسن الكفاءة والدقة."
+    },
+    {
+      "title": "هل يمكن إبقاء أولياء الأمور على اطلاع دائم؟",
+      "desc": "بالتأكيد. تستخدم CaptainX أدوات تواصل مدعومة بالذكاء الاصطناعي لإرسال الإشعارات الآلية وتحديثات الجداول وملخصات الأداء الشخصية، مما يبقي أولياء الأمور على اطلاع دائم بتقدم أبنائهم."
+    },
+    {
+      "title": "هل يمكن للمنصة دعم فروع أو مراكز تدريب متعددة؟",
+      "desc": "نعم. CaptainX Academies هي منظومة قابلة للتوسع تربط الفروع أو مراكز التدريب المتعددة عبر لوحة تحكم موحدة، مما يضمن بيانات ورؤى وتحكمًا تشغيليًا متسقًا في جميع المواقع."
+    }
+  ],
+
+  "ctaTitle": "مكّن اتحادك <br> اليوم",
+  "ctadesc": "اتخذ الخطوة التالية نحو التحول الرقمي.",
+  "ctabutton": "احجز عرضًا تجريبيًا مجانيًا"
+},
+
+"federation": {
+  "secTopTitle": "الاتحادات",
+  "title": "حوكمة سلسة. قرارات أذكى.",
+  "desc": "الحزمة الرقمية الكاملة المصممة لتمكين الاتحادات الرياضية.",
+  "btn": "ابدأ تجربتك المجانية",
+  "futureTitle": "مستقبل إدارة الاتحاد",
+  "futureDesc": "من تبسيط العمليات اليومية إلى تعزيز الشفافية ومشاركة الأعضاء، توفر XFederation للاتحادات الحلول التي تحتاجها للنمو بشكل أقوى وأسرع وأكثر ذكاءً.",
+  "numspan": "%",
+  "num1": "+92",
+  "num1Desc": "زيادة في كفاءة العمليات",
+  "num2": "+84",
+  "num2Desc": "اتخاذ قرارات أسرع",
+  "num3": "+43",
+  "num3Desc": "زيادة في مشاركة الأعضاء",
+  "keyFeautersTitle": "الميزات الرئيسية",
+  "keyFeauters": [
+    {
+      "title": "إدارة اللاعبين والأعضاء",
+      "desc": "مركزية سجلات الأعضاء والتسجيلات والتجديدات بسهولة.",
+      "num": "01",
+      "img": "/images/feda.png"
+    },
+    {
+      "title": "إدارة المسؤولين الفنيين",
+      "desc": "إدارة الحكام والمدربين والمسؤولين بأدوات تتبع شفافة.",
+      "num": "02",
+      "img": "/images/feda.png"
+    },
+    {
+      "title": "تخطيط البطولات",
+      "desc": "مركزية سجلات الأعضاء والتسجيلات والتجديدات بسهولة.",
+      "num": "03",
+      "img": "/images/feda.png"
+    },
+    {
+      "title": "إعداد قائمة التصنيف",
+      "desc": "توليد تصنيفات دقيقة مع تحديثات فورية وتتبع الأداء.",
+      "num": "04",
+      "img": "/images/feda.png"
+    },
+    {
+      "title": "التفاعلات التلقائية عبر البريد الإلكتروني والرسائل النصية",
+      "desc": "إبقاء الأعضاء على اطلاع ومشاركة من خلال التواصل المجدول.",
+      "num": "05",
+      "img": "/images/feda.png"
+    },
+    {
+      "title": "التقارير والتحليلات",
+      "desc": "كشف رؤى البيانات لدعم النمو والأداء والتخطيط الاستراتيجي.",
+      "num": "06",
+      "img": "/images/feda.png"
+    }
+  ],
+  "platformTitle": "المنصة الذكية",
+  "platformDesc": "تحويل بيانات الاتحاد المعقدة إلى استراتيجيات قابلة للتنفيذ باستخدام التحليلات التنبؤية.",
+  "platformlist1Title": "رؤى مدعومة بالذكاء الاصطناعي",
+  "platformlist1Desc": "تحويل بيانات الاتحاد المعقدة إلى استراتيجيات قابلة للتنفيذ باستخدام التحليلات التنبؤية.",
+  "platformlist1icon": "/images/ico-3.svg",
+  "platformlist2Title": "التواصل الرقمي",
+  "platformlist2Desc": "ربط أصحاب المصلحة المختلفين بسلاسة من خلال نظام بيئي رقمي متكامل.",
+  "platformlist2icon": "/images/ico-1.svg",
+  "platformlist3Title": "الأتمتة الذكية",
+  "platformlist3Desc": "تقليل العمل اليدوي باستخدام سير عمل ذكي يدير المهام في الوقت الفعلي.",
+  "platformlist3icon": "/images/ico-4.svg",
+  "platformlist4Title": "منصة سحابية آمنة",
+  "platformlist4Desc": "ضمان موثوقية البيانات وقابلية التوسع والوصول على مدار الساعة مع أمان متقدم للمؤسسات.",
+  "platformlist4icon": "/images/ico-2.svg",
+  "faqtitle": "الأسئلة المتكررة",
+  "faqdesc": "من تبسيط العمليات اليومية إلى",
+  "faqlist": [
+    {
+      "title": "ما هو CaptainX Federation؟",
+      "desc": "CaptainX Federation هو منصة رقمية مدعومة بالذكاء الاصطناعي تزود المنظمات الرياضية بأدوات ذكية لتبسيط العمليات وتعزيز التواصل ودفع النمو. تساعد المنصة الاتحادات على أتمتة سير العمل واستخدام التحليلات الذكية لتحسين الأداء ومشاركة الأعضاء."
+    },
+    {
+      "title": "كيف يحسن CaptainX Federation الكفاءة؟",
+      "desc": "يستخدم CaptainX Federation أدوات جدولة وتتبع أداء مدعومة بالذكاء الاصطناعي لتبسيط إدارة المسؤولين الفنيين، مما يضمن تنسيقاً سلساً وتوزيعاً عادلاً ورؤى أداء شفافة عبر الفعاليات."
+    },
+    {
+      "title": "كيف يساعد CaptainX Federation في اتخاذ القرارات؟",
+      "desc": "توفر المنصة تقارير مدعومة بالذكاء الاصطناعي وتحليلات تنبؤية، لتحويل البيانات الخام إلى رؤى قابلة للتنفيذ حول الأداء واتجاهات المشاركة والديموغرافيات، مما يمكّن المنظمات الرياضية من اتخاذ قرارات أكثر ذكاءً وسرعة واستناداً إلى البيانات."
+    },
+    {
+      "title": "ما هي فوائد التواصل عبر CaptainX Federation؟",
+      "desc": "يستفيد CaptainX Federation من أدوات التواصل المدعومة بالذكاء الاصطناعي مع تكامل البريد الإلكتروني والرسائل النصية التلقائي، مما يمكّن من تحديثات سلسة وشخصية وتنسيق في الوقت الفعلي بين الأعضاء والمسؤولين والمشاركين."
+    }
+  ],
+  "ctaTitle": "مكّن اتحادك <br> اليوم",
+  "ctadesc": "اتخذ الخطوة التالية في التحول الرقمي.",
+  "ctabutton": "احجز عرضًا تجريبيًا مجانيًا"
+},
+
+
+"tournament": {
+  "secTopTitle": "بطولات CaptainX",
+  "title": "تنفيذ سلس. تجارب راقية.",
+  "desc": "حل رقمي متكامل لتخطيط وإدارة وتنفيذ فعاليات رياضية سلسة تجذب المنظمين واللاعبين والجماهير على حد سواء.",
+  "btn": "ابدأ تجربتك المجانية",
+  "futureTitle": "مستقبل إدارة البطولات",
+  "futureDesc": "من التسجيلات والجدولة إلى النتائج المباشرة ومشاركة الجمهور، تمكّن بطولات CaptainX المنظمين من إدارة بطولات احترافية بلا فوضى وبأقصى تأثير.",
+  "numspan": "%",
+  "num1": "+83",
+  "num1Desc": "إعداد البطولات بشكل أسرع",
+  "num2": "+76",
+  "num2Desc": "تقليل التنسيق اليدوي",
+  "num3": "+43",
+  "num3Desc": "زيادة رضا اللاعبين والجماهير",
+  "keyFeautersTitle": "الميزات الرئيسية",
+  "keyFeauters": [
+    {
+      "title": "قائمة البطولات",
+      "desc": "توفير رؤية للاعبين من خلال الملفات الشخصية وتتبع الأداء والشهادات الرقمية.",
+      "num": "01",
+      "img": "/images/tournament.png"
+    },
+    {
+      "title": "تسجيل اللاعبين",
+      "desc": "تبسيط التسجيل باستخدام نماذج رقمية، وإنشاء بطاقات تعريف تلقائية، وتأكيدات فورية.",
+      "num": "02",
+      "img": "/images/tournament.png"
+    },
+    {
+      "title": "القرعات والجدولة",
+      "desc": "إنشاء الجداول وأنماط المباريات وتوزيع الملاعب في ثوانٍ.",
+      "num": "03",
+      "img": "/images/tournament.png"
+    },
+    {
+      "title": "التسجيل الحي والنتائج",
+      "desc": "تحديثات المباريات في الوقت الفعلي يمكن الوصول إليها من قبل اللاعبين وأولياء الأمور والجماهير في أي مكان.",
+      "num": "04",
+      "img": "/images/tournament.png"
+    },
+    {
+      "title": "إدارة الحكام والمسؤولين",
+      "desc": "تعيين الأدوار وإخطار المسؤولين وتتبع الأداء بسهولة.",
+      "num": "05",
+      "img": "/images/tournament.png"
+    },
+    {
+      "title": "التقارير والتحليلات",
+      "desc": "الوصول إلى رؤى الأداء ومقاييس المشاركة والبيانات التشغيلية.",
+      "num": "06",
+      "img": "/images/tournament.png"
+    }
+  ],
+  "platformTitle": "المنصة الذكية",
+  "platformDesc": "تحويل بيانات الاتحاد المعقدة إلى استراتيجيات قابلة للتنفيذ باستخدام التحليلات التنبؤية.",
+  "platformlist1Title": "تصميم يركز على اللاعبين",
+  "platformlist1Desc": "توفير رؤية للاعبين من خلال الملفات الشخصية وتتبع الأداء والشهادات الرقمية.",
+  "platformlist1icon": "/images/ico-3.svg",
+  "platformlist2Title": "التفاعل الرقمي",
+  "platformlist2Desc": "ربط اللاعبين والمدربين والجماهير من خلال التحديثات الحية والميزات التفاعلية.",
+  "platformlist2icon": "/images/ico-1.svg",
+  "platformlist3Title": "البنية السحابية الآمنة",
+  "platformlist3Desc": "موثوقة وقابلة للتوسع ويمكن الوصول إليها في أي وقت، مصممة للمنظمين الذين يطلبون التميز.",
+  "platformlist3icon": "/images/ico-4.svg",
+  "platformlist4Title": "تمكين الإيرادات",
+  "platformlist4Desc": "فتح فرص الربح من خلال الرعايات والإعلانات وخيارات البث المميز.",
+  "platformlist4icon": "/images/ico-2.svg",
+  "faqtitle": "الأسئلة المتكررة",
+  "faqdesc": "من تبسيط العمليات اليومية إلى",
+  "faqlist": [
+    {
+      "title": "من يمكنه الاستفادة من بطولات CaptainX؟",
+      "desc": "المنظمات الرياضية، ومديرو الفعاليات، والأندية، ومنظمو البطولات الذين يسعون لتعزيز الكفاءة، تبسيط العمليات، وتقديم تجارب لا تُنسى للاعبين والجماهير من خلال الأتمتة والتحليلات المدعومة بالذكاء الاصطناعي."
+    },
+    {
+      "title": "ما هي الرياضات المتاحة حالياً؟",
+      "desc": "تدعم بطولات CaptainX أكثر من 20 رياضة، بما في ذلك الريشة الطائرة، وتنس الطاولة، والبيكل بول، والكرة الطائرة، وكرة السلة، وكرة القدم، والهوكي، وكرة اليد، ومالاخامبا، والشيسبوكسينغ، والمصارعة، مع توسع مستمر مدفوع بالذكاء الاصطناعي."
+    },
+    {
+      "title": "هل المنصة مناسبة لإدارة الفعاليات الكبيرة؟",
+      "desc": "بالطبع. مع إدارة المسؤولين الذكية، وتوزيع الحكام تلقائيًا، وإنشاء الشهادات بالجملة، تم تصميم نظام CaptainX المدعوم بالذكاء الاصطناعي للتعامل مع البطولات متعددة الرياضات على نطاق واسع بسهولة."
+    },
+    {
+      "title": "هل يمكننا تخصيص المنصة بشعارنا وهوية علامتنا؟",
+      "desc": "نعم! توفر بطولات CaptainX خيارات العلامة البيضاء الكاملة، مما يمكّن منظمتك من دمج علامتك التجارية بالكامل وإنشاء تجربة رقمية موحدة تشعر أنها خاصة بك."
+    }
+  ],
+  "ctaTitle": "ارتقِ ببطولاتك",
+  "ctadesc": "اتخذ الخطوة التالية في التحول الرقمي.",
+  "ctabutton": "احجز عرضًا تجريبيًا مجانيًا"
+},
+
+
+"live": {
+  "secTopTitle": "CaptainX مباشر",
+  "title": "رياضة حية. تأثير فوري.",
+  "desc": "الحل الأمثل للتسجيل المباشر، البث، وإدارة الفعاليات الرياضية بسلاسة.",
+  "btn": "ابدأ تجربتك المجانية",
+  "futureTitle": "مستقبل إدارة الرياضة الحية",
+  "futureDesc": "من التحديثات الفورية للنتائج إلى البث المباشر الغامر، يجعل CaptainX Live إدارة البطولات الرياضية سهلة وسلسة.",
+  "numspan": "%",
+  "numsx": "X",
+  "num1": "+97",
+  "num1Desc": "تأخير أقل في تسجيل النتائج",
+  "num2": "+93",
+  "num2Desc": "إجراءات المباريات أسرع",
+  "num3": "+3",
+  "num3Desc": "زيادة التفاعل الجماهيري",
+  "keyFeautersTitle": "الميزات الرئيسية",
+  "keyFeauters": [
+    {
+      "title": "الوقت والنتائج (TSR)",
+      "desc": "تقديم نتائج المباريات، الإحصاءات، والنتائج النهائية مباشرة على الويب والأجهزة المحمولة.",
+      "num": "01",
+      "img": "/images/tourna.png"
+    },
+    {
+      "title": "إدارة الملاعب والمرافق",
+      "desc": "تحسين تخصيص الملاعب، الجدولة، واستخدام الموارد لضمان سير الحدث بسلاسة.",
+      "num": "02",
+      "img": "/images/tourna.png"
+    },
+    {
+      "title": "إدارة الحكام والمسؤولين",
+      "desc": "تعيين وإخطار وتتبع أداء الحكام من خلال سير عمل منظم.",
+      "num": "03",
+      "img": "/images/tourna.png"
+    },
+    {
+      "title": "البث المباشر المتكامل",
+      "desc": "بث المباريات مباشرة مع بطاقات النتائج المتراكبة والرسومات الديناميكية لتجربة مشاهدة احترافية.",
+      "num": "04",
+      "img": "/images/tourna.png"
+    },
+    {
+      "title": "التقارير والتحليلات",
+      "desc": "الوصول إلى ملخصات المباريات، بيانات المشاركين، مقاييس التفاعل، والرؤى التشغيلية.",
+      "num": "05",
+      "img": "/images/tourna.png"
+    },
+    {
+      "title": "وحدة الإعلانات",
+      "desc": "خلق فرص جديدة للإيرادات من خلال الإعلانات المخصصة والرعايات.",
+      "num": "06",
+      "img": "/images/tourna.png"
+    }
+  ],
+  "platformTitle": "المنصة الذكية",
+  "platformDesc": "تحويل بيانات الاتحاد المعقدة إلى استراتيجيات قابلة للتنفيذ باستخدام التحليلات التنبؤية.",
+  "platformlist1Title": "رؤى المباريات بالذكاء الاصطناعي",
+  "platformlist1Desc": "تحويل بيانات المباريات إلى رؤى استراتيجية باستخدام التحليلات التنبؤية وتتبع الأداء.",
+  "platformlist1icon": "/images/ico-3.svg",
+  "platformlist2Title": "سير عمل آلي",
+  "platformlist2Desc": "إلغاء العمل التكراري للتنسيق من خلال التحديثات والإشعارات والجدولة الآلية.",
+  "platformlist2icon": "/images/ico-1.svg",
+  "platformlist3Title": "تجربة رقمية تركز على الجماهير",
+  "platformlist3Desc": "تقديم لوحات النتائج الحية، التعليق، المقاطع، وأبرز اللحظات، متاحة عالميًا على جميع الأجهزة.",
+  "platformlist3icon": "/images/ico-4.svg",
+  "platformlist4Title": "بنية سحابية آمنة وقابلة للتوسع",
+  "platformlist4Desc": "تشغيل البطولات من أي حجم، من الفعاليات المحلية إلى البطولات الدولية دون توقف.",
+  "platformlist4icon": "/images/ico-2.svg",
+  "faqtitle": "الأسئلة المتكررة",
+  "faqdesc": "من تبسيط العمليات اليومية إلى",
+  "faqlist": [
+    {
+      "title": "ما هو CaptainX Live؟",
+      "desc": "CaptainX Live هي منصة إدارة رياضية مدعومة بالذكاء الاصطناعي تجمع بين التسجيل المباشر، البث، وإدارة البطولات في نظام واحد سلس. تساعد المنظمين والأكاديميات والاتحادات على تقديم فعاليات احترافية بسرعة ودقة وتفاعل جماهيري غير مسبوق."
+    },
+    {
+      "title": "كيف يستخدم CaptainX Live الذكاء الاصطناعي لتحسين إدارة المباريات؟",
+      "desc": "يحلل محرك الذكاء الاصطناعي بيانات المباريات في الوقت الفعلي لتوليد رؤى تنبؤية، وتحسين الجدولة، وإزالة التأخيرات اليدوية. من اكتشاف عدم اتساق النتائج إلى اقتراح تخصيص الملاعب الأمثل، يضمن الذكاء الاصطناعي تشغيل كل بطولة بسلاسة وسرعة."
+    },
+    {
+      "title": "هل يمكن لـ CaptainX Live إدارة البطولات الكبيرة؟",
+      "desc": "بالطبع. مدعومة ببنية سحابية آمنة وقابلة للتوسع، تدعم CaptainX Live جميع الفعاليات من الأحداث المحلية الصغيرة إلى البطولات الدولية، مع ضمان عدم توقف الخدمة وأداء فوري متسق على جميع الأجهزة."
+    },
+    {
+      "title": "ما الميزات التي تميز CaptainX Live عن أدوات إدارة الرياضة الأخرى؟",
+      "desc": "تدمج CaptainX Live التسجيل المباشر، التحليلات المدعومة بالذكاء الاصطناعي، البث المباشر مع الرسومات التفاعلية، إدارة الحكام، سير العمل الآلي، ووحدات الإعلانات. إنها الحل الكامل للمنظمين الذين يرغبون في تنفيذ، مراقبة، وتحقيق الدخل من فعالياتهم بسهولة."
+    },
+    {
+      "title": "كيف يحسن CaptainX Live تفاعل الجماهير؟",
+      "desc": "يحصل الجماهير على تجربة رقمية متقدمة مع لوحات النتائج الفورية، أبرز اللحظات المُنسقة بواسطة الذكاء الاصطناعي، التعليق المباشر، والمقاطع الفيديوية المتاحة في أي مكان. بتحويل البيانات الحية إلى قصص تفاعلية، يحافظ CaptainX Live على تواصل الجماهير وحماستهم طوال كل مباراة."
+    }
+  ],
+  "ctaTitle": "ارتقِ ببطولاتك",
+  "ctadesc": "اتخذ الخطوة التالية في التحول الرقمي.",
+  "ctabutton": "احجز عرضًا تجريبيًا مجانيًا"
+},
+
+
+
+"company": {
+  "title": "بناء الإرث مع <br /> تكنولوجيا الرياضة",
+  "secTopTitle": "قصتنا",
+  "secTitle": "مصممة للمستقبل",
+  "secdesc": "يقع مقرنا في جدة وبدافع من رؤية المملكة 2030، نحن نمزج بين الذكاء الاصطناعي المتقدم، والفهم العميق للرياضة، والنظم الرقمية القابلة للتوسع لتمكين الاتحادات والأندية والأكاديميات والأبطال الجدد. بدقة مدفوعة بالبيانات ووضوح أداء لا مثيل له، نحن نصنع مستقبل الرياضة بشكل أذكى، أسرع وأكثر استدامة من أي وقت مضى.",
+  "cardTitle": "الرؤية والرسالة",
+  "maptitle": "من المملكة العربية السعودية إلى العالم",
+  "ctatitle": "استثمر في <br> مستقبل الرياضة",
+  "ctadesc": "نحن نحول رؤية جريئة إلى واقع. إذا كنت تؤمن أن التكنولوجيا ستشكل أبطال الغد، فلنتواصل ونجعل ذلك يحدث.",
+  "ctaButton": "تواصل معنا",
+  "card": [
+    {
+      "num": "01",
+      "title": "الرؤية",
+      "desc": "أن نصبح النظام البيئي الرائد لتكنولوجيا الرياضة من خلال حلول مبتكرة مدفوعة بالذكاء الاصطناعي."
+    },
+    {
+      "num": "02",
+      "title": "الرسالة",
+      "desc": "تقديم منصات مدفوعة بالذكاء الاصطناعي ومركزة على المستخدم لتحقيق تحول رقمي شامل وسلس."
+    },
+    {
+      "num": "03",
+      "title": "القيم",
+      "desc": "بدافع الابتكار، مدعوم بالذكاء الاصطناعي، وملهم بالهدف، نحن نبني مستقبلًا متصلًا وذكيًا ومستدامًا للرياضة."
+    }
+  ],
+  "sustable": {
+    "sectoptitle": "الاستدامة",
+    "title": "ابتكار يحترم المستقبل",
+    "desc": "الاستدامة هي جوهر كل ما نقوم به. من خلال التكنولوجيا المسؤولة، نمكّن النظم الرياضية من التميز مع تعزيز العدالة والشمول والمسؤولية البيئية، مما يخلق قيمة مستدامة للرياضيين والأكاديميات والاتحادات والحكومات والمجتمعات.",
+    "card1": "تعزيز الأداء بهدف، وضمان أن كل ابتكار يرفع مستوى الناس والمجتمعات وكوكب الأرض.",
+    "card2": "بناء نظم رياضية أذكى وأكثر استدامة حيث تسير التكنولوجيا والمسؤولية جنبًا إلى جنب."
+  },
+  "board": {
+    "director": [
+      {
+        "name": "نزيه الناصر",
+        "role": "قائد استراتيجي",
+        "img": "/images/pep1.png"
+      },
+      {
+        "name": "كريشناكومار ن",
+        "role": "رئيس التكنولوجيا",
+        "img": "/images/pep2.png"
+      },
+      {
+        "name": "أرجون أناند",
+        "role": "رئيس العمليات والاستراتيجية",
+        "img": "/images/pep3.png"
+      },
+      {
+        "name": "عبدالله خميس، د.ف.",
+        "role": "مستشار الذكاء الاصطناعي والتعلم الآلي",
+        "img": "/images/pep4.png"
+      },
+      {
+        "name": "أحمد البخاير",
+        "role": "مستشار الاستراتيجية الرقمية",
+        "img": "/images/pep5.png"
+      },
+      {
+        "name": "بول لواكونو",
+        "role": "مستشار النمو الاستراتيجي",
+        "img": "/images/pep6.png"
+      }
+    ],
+    "sectoptitle": "الأشخاص",
+    "secboardtitle": "العقول وراء اللعبة",
+    "secboarddesc": "في مقدمة CaptainX يوجد فريق متميز من القادة ذوي الرؤية، ورواد تكنولوجيا الرياضة، والابتكار الرقمي، واستراتيجيات الأعمال. توفر خبرتهم المشتركة الإشراف الاستراتيجي والحوكمة المؤسسية والمعلومات السوقية اللازمة لتحقيق نمو مستدام وقيمة طويلة الأجل.",
+    "btn1": "مجلس الإدارة",
+    "btn2": "المجلس الاستشاري"
+  }
+},
+
+
+"partner": {
+  "title": "شراكة مستقبل الرياضة",
+  "desc": "مستوحاة من رؤية المملكة 2030، نحن نجمع بين التكنولوجيا ورواد الرؤية لتشكيل مستقبل الرياضة.",
+  "btn": "كن شريكًا",
+  "cardlaptitle": "لماذا الشراكة مع SportX",
+  "typetoptitle": "نماذج الشراكة",
+  "typetitle": "شراكات تحقق التحول الحقيقي",
+  "typedesc": "في SportX، نؤمن أن التحول في الرياضة يحدث عندما تتحد التكنولوجيا ورواد الرؤية.",
+  "sucesstoptitle": "أنواع الشراكات",
+  "sucessTitle": "50+ شريك ناجح",
+  "sucessDesc": "في SportX، نؤمن أن التحول في الرياضة يحدث عندما تتحد التكنولوجيا ورواد الرؤية.",
+  "morequee": "موثوق به من قبل المبتكرين",
+  "morqueetitle": "متحدون برؤية واحدة",
+  "ctatitle": "لنبنِ المستقبل في كل رياضي.",
+  "ctadesc": "انضم إلينا في تشكيل عصر جديد لتكنولوجيا وابتكار الرياضة.",
+  "ctabtn": "كن شريكًا",
+  "cardlap": [
+    {
+      "title": "متوافق مع رؤية 2030",
+      "desc": "انضم إلى حركة تعيد تعريف التميز الرياضي في المملكة.",
+      "img": "images/card-lap.png"
+    },
+    {
+      "title": "النمو المتبادل",
+      "desc": "زيادة الإيرادات، وتعزيز علامتك التجارية، وفتح قنوات جديدة للتفاعل.",
+      "img": "images/cardlap2.png"
+    },
+    {
+      "title": "الوصول العالمي",
+      "desc": "التواصل مع اللاعبين والمنظمين والمشجعين عبر الأسواق الدولية.",
+      "img": "images/card-lap3.png"
+    }
+  ],
+  "types": [
+    {
+      "img": "images/w-brain-icon.svg",
+      "title": "الاتحادات والأكاديميات الرياضية",
+      "desc": "رقمنة العمليات، وتحسين البطولات، وجذب المشجعين من خلال التكنولوجيا الغامرة."
+    },
+    {
+      "img": "images/w-brain-icon.svg",
+      "title": "الأكاديميات والمؤسسات الرياضية",
+      "desc": "تعزيز وضوح علامتك التجارية من خلال الارتباط بحلول رياضية متقدمة."
+    },
+    {
+      "img": "images/w-brain-icon.svg",
+      "title": "الشركاء التكنولوجيون",
+      "desc": "التعاون معنا في مشاريع الابتكار المشترك والمشاريع المشتركة."
+    },
+    {
+      "img": "images/w-brain-icon.svg",
+      "title": "التحالفات والمستثمرون",
+      "desc": "الاستثمار في التكنولوجيا المستقبلية المدفوعة برؤية 2030."
+    }
+  ]
+},
+
+
+"careers": {
+  "careertitle": "موجهة بالهدف. <span>الناس</span> هم القوة الدافعة.",
+  "desc": "مجموعة رقمية كاملة مدعومة بالذكاء الاصطناعي مصممة لـ",
+  "careerBtn": "عرض الوظائف الشاغرة",
+  "lifetitle": "الحياة في CaptainX",
+  "lifedesc": "كل عضو في الفريق هو محفز للتغيير، مدفوع بقوة الرياضة لتوحيد وإلهام ورفع مستوى الجميع.",
+  "bottitle": "الملاحظة",
+  "botdesc": "نؤمن بالعمل الجماعي داخل الملعب وخارجه. ثقافتنا تحتفل بالفضول والابتكار والتعاطف والتعاون.",
+  "openingtitle": "الوظائف الحالية",
+  "openingdesc": "عند انضمامك إلى CaptainX، تنضم إلى فريق يلعب للفوز، من أجل الرياضيين، من أجل الوطن، ومن أجل المستقبل.",
+  "openingtitle2": "لا يمكنك العثور على ما تبحث عنه؟",
+  "openingdesc2": "عند انضمامك إلى CaptainX، تنضم إلى فريق يلعب للفوز، من أجل الرياضيين، من أجل الوطن، ومن أجل المستقبل.",
+  
+  "openingaccord": [
+    {
+      "title": "تصميم المنتجات",
+      "desc": "CaptainX Federation يُبسط إدارة المسؤولين الفنيين من خلال توفير أدوات للجدولة، تتبع الأداء، والتواصل، لضمان تنسيق سلس للفعاليات.",
+      "btn": "أنا مهتم",
+      "lists": [
+        { "list": "تقديم الدعم الصوتي للعملاء الدوليين والمحليين عبر الهاتف (الوارد والصادر)." },
+        { "list": "بناء علاقة مع العملاء من خلال التواصل الواضح والواثق." },
+        { "list": "التركيز على رضا العملاء وحل المشاكل من المحاولة الأولى." },
+        { "list": "التفاعل مع الفريق الفني لتوفير حلول أسرع للمشكلات التقنية." },
+        { "list": "العمل عن كثب مع فريق المحتوى الفني لتحديد الثغرات في وحدة المساعدة." },
+        { "list": "يجب أن يكون مستعدًا للعمل في الورديات الليلية." }
+      ]
+    },
+    {
+      "title": "مهندس Backend",
+      "desc": "CaptainX Federation يُبسط إدارة المسؤولين الفنيين من خلال توفير أدوات للجدولة، تتبع الأداء، والتواصل، لضمان تنسيق سلس للفعاليات.",
+      "btn": "أنا مهتم",
+      "lists": [
+        { "list": "تقديم الدعم الصوتي للعملاء الدوليين والمحليين عبر الهاتف (الوارد والصادر)." },
+        { "list": "بناء علاقة مع العملاء من خلال التواصل الواضح والواثق." },
+        { "list": "التركيز على رضا العملاء وحل المشاكل من المحاولة الأولى." },
+        { "list": "التفاعل مع الفريق الفني لتوفير حلول أسرع للمشكلات التقنية." },
+        { "list": "العمل عن كثب مع فريق المحتوى الفني لتحديد الثغرات في وحدة المساعدة." },
+        { "list": "يجب أن يكون مستعدًا للعمل في الورديات الليلية." }
+      ]
+    },
+    {
+      "title": "مهندس Full stack",
+      "desc": "CaptainX Federation يُبسط إدارة المسؤولين الفنيين من خلال توفير أدوات للجدولة، تتبع الأداء، والتواصل، لضمان تنسيق سلس للفعاليات.",
+      "btn": "أنا مهتم",
+      "lists": [
+        { "list": "تقديم الدعم الصوتي للعملاء الدوليين والمحليين عبر الهاتف (الوارد والصادر)." },
+        { "list": "بناء علاقة مع العملاء من خلال التواصل الواضح والواثق." },
+        { "list": "التركيز على رضا العملاء وحل المشاكل من المحاولة الأولى." },
+        { "list": "التفاعل مع الفريق الفني لتوفير حلول أسرع للمشكلات التقنية." },
+        { "list": "العمل عن كثب مع فريق المحتوى الفني لتحديد الثغرات في وحدة المساعدة." },
+        { "list": "يجب أن يكون مستعدًا للعمل في الورديات الليلية." }
+      ]
+    },
+    {
+      "title": "مهندس DevOps",
+      "desc": "CaptainX Federation يُبسط إدارة المسؤولين الفنيين من خلال توفير أدوات للجدولة، تتبع الأداء، والتواصل، لضمان تنسيق سلس للفعاليات.",
+      "btn": "أنا مهتم",
+      "lists": [
+        { "list": "تقديم الدعم الصوتي للعملاء الدوليين والمحليين عبر الهاتف (الوارد والصادر)." },
+        { "list": "بناء علاقة مع العملاء من خلال التواصل الواضح والواثق." },
+        { "list": "التركيز على رضا العملاء وحل المشاكل من المحاولة الأولى." },
+        { "list": "التفاعل مع الفريق الفني لتوفير حلول أسرع للمشكلات التقنية." },
+        { "list": "العمل عن كثب مع فريق المحتوى الفني لتحديد الثغرات في وحدة المساعدة." },
+        { "list": "يجب أن يكون مستعدًا للعمل في الورديات الليلية." }
+      ]
+    }
+  ]
+},
+
+"contact": {
+  "contacttitle": "لنتحدث",
+  "contactdesc": "نساعد الرياضيين، الأكاديميات، الاتحادات، والأندية على تنظيم العمل، التخطيط، والتوسع.",
+  "email": "البريد الإلكتروني",
+  "phone": "الهاتف",
+  "location": "الموقع",
+  "address": "مركز الابتكار وريادة الأعمال، جامعة الملك عبدالعزيز، جدة، المملكة العربية السعودية",
+  "follow": "تابعنا على"
+},
+"notfound": {
+  "sectitle": "<span>كابتن X</span> ضائع في الفضاء",
+  "desc": "يبدو أن الكابتن أخذ مساراً خاطئاً في المجرة. دعنا نساعدك على العودة إلى الصفحة الرئيسية.",
+  "btn": "العودة إلى الصفحة الرئيسية"
+},
+"underconstruc": {
+  "sectitle": "<span>كابتن X</span> يبني هذه الصفحة.",
+  "desc": "لم تصبح جاهزة بعد، لكن شيئًا مثيرًا في الطريق. ترقبوا!",
+  "btn": "العودة إلى الصفحة الرئيسية"
+}
+
+
+}
+}

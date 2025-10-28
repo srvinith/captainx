@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+  .mobile-image-box {
+    text-align: center;
+    margin: 40px 0;
+    transition: all 0.5s ease;
+  }
+
+  .mobile-image-box img {
+    width: 90%;
+    border-radius: 15px;
+    transition: opacity 0.5s ease;
+  }
+
+  .member-detailss {
+    margin-top: 10px;
+    background: linear-gradient(180deg, #683FEA 0%, #1E173C 100%);
+    display: inline-block;
+    border-radius: 8px 8px 0 0;
+    color: #fff;
+    padding: 10px 20px;
+  }
+
+  .tab-button {
+    position:relative;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+
+  .button-container {
+    background: #fff;
+    border-radius: 30px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .button-container p {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .button-container p.active {
+    background: #683FEA;
+    color: #fff;
+    font-weight: 600;
+  }
+}

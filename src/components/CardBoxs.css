@@ -1,0 +1,258 @@
+.card-boxs {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.card-boxs h2,
+.card-boxs p {
+    padding: 0 20px;
+}
+.card-boxs p{
+    font-size:18px;
+}
+
+.animation-text {
+    font-size: 125px;
+    font-weight: 900;
+    font-family: 'Denton', serif !important;
+    color: transparent;
+    margin: 0;
+    padding: 0;
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.7s ease, opacity 0.6s ease;
+}
+
+/* Default hidden shadow box */
+.animation-text::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url(../assets/images/sahdow-box.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.card-boxs:hover .animation-text::after {
+    opacity: 1 !important;
+}
+
+
+
+.f-boxs {
+    width: 200px;
+    height: 250px;
+    border-radius: 12px;
+    border: 1px solid #000;
+}
+
+.player-boxs {
+    background: linear-gradient(180deg, #2E0F75 0%, #3A0CA3 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -300px;
+    transition: 1s ease-in-out;
+    transform: rotate(-10deg);
+
+}
+
+.empty-boxs {
+    position: absolute;
+}
+
+.f-boxs h2 {
+    font-size: 70px;
+    font-weight: 900;
+    font-size: 80px;
+    font-weight: bold;
+    transform: rotate(270deg);
+    -webkit-text-stroke: none !important;
+}
+
+/* =========card2======= */
+
+.rotae-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: transform 1.2s ease;
+    /* smooth translate on hover */
+}
+
+.cardrotae-1 {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    top: 130px;
+    position: absolute;
+    transition: all 1.2s ease;
+
+}
+
+.cardrotae-1 h2 {
+    transform: rotate(270deg);
+    font-size: 75px;
+    font-weight: 900;
+   font-family: 'times', serif !important;
+    color: transparent;
+    /* stroke-only */
+    -webkit-text-stroke: 0.9px black;
+    transition: all 1.2s ease;
+    /* smooth color change */
+    position: absolute;
+    bottom: 0;
+    right: -50%;
+}
+
+
+.text-cards {
+    position: absolute;
+    background-color: #fff;
+    width: 150px;
+    height: 200px;
+    bottom: 100px;
+}
+
+
+
+
+/* Hover effects */
+.card-boxs:hover .rotae-box {
+    transform: translateY(-100px);
+    top: 30px;
+    /* z-index: 3; */
+}
+/* .card-boxs:hover.cards1,.cards2{
+    transform: translateY(500px);
+} */
+
+.card-boxs:hover .cardrotae-1 {
+    transform: translateY(400px);
+}
+
+.card-boxs:hover .cards1 {
+    transform: rotate(6deg);
+    top: 130px;
+    left: 50%;
+   
+}
+.card-boxs:hover .cards2 {
+    transform: rotate(-15deg);
+    top: 130px;
+    right: 50%;
+   
+}
+
+
+.text-cards h2 {
+    transform: rotate(270deg);
+    -webkit-text-stroke: none !important;
+    text-wrap: wrap;
+     font-weight: 900;
+    color: #000 !important;
+    font-size: 30px !important;
+    top: 50px;
+    left: -30px;
+    position: absolute;
+}
+
+/* =========card2======= */
+
+.text-11 {
+  position: absolute;
+  top: -80px;
+  left: 70px;
+  font-size: 25vw;
+  font-style: italic;
+  font-family: 'times', serif !important;
+ -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #000;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  transition: all 1s ease-in-out;
+}
+
+
+
+.empty-boxs {
+    right: 14%;
+    transform: scale(0.2) !important;
+    transition: 1s ease-in-out;
+    transform: translateY(500px);
+    border: none;
+}
+
+.card-boxs:hover .player-boxs {
+    right: 15%;
+}
+
+.card-boxs:hover .text-11 {
+    left: -70%;
+}
+
+.card-boxs:hover .empty-boxs {
+    /* transform: scale(1.2); */
+    transform: rotate(10deg);
+    transform: translateY(10px) !important;
+    border: 1px solid #000;
+
+}
+
+/* ==========third-card====== */
+.s-card{
+      background: linear-gradient(180deg, #2E0F75 0%, #3A0CA3 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition: 1s ease-in-out;
+    transform: rotate(90deg);
+    width: 200px;
+    height: 400px;
+    right: -5px;
+    top:30px;
+}
+.s-card1{
+     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction:column;
+    position: absolute;
+    transition: 1s ease-in-out;
+    transform: rotate(90deg);
+    width: 200px;
+    height: 400px;
+    right: -5px;
+    border: 1px solid #000;
+    transform: rotate(-85deg);
+    z-index: -1;
+    top:30px !important;
+}
+
+.card-boxs:hover .s-card{
+transform: rotate(92deg);
+}
+.card-boxs:hover .s-card1{
+transform: rotate(-88deg);
+}
+/* ==========third-card====== */

@@ -1,0 +1,546 @@
+.product-hero-section {
+    top: 10vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.first-product-part {
+    background-image: url(../assets/images/bg-over.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-proud-images {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.card-prod-img {
+    background-image: url(../assets/images/fr-main.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    /* left: 300px; */
+    top: -100px;
+    width: 100%;
+    height: 40vh;
+    z-index: 1;
+    margin-top: 200px;
+}
+
+.card-proud-second {
+    position: absolute;
+    left: 100px;
+}
+
+.pro-1 {
+    position: absolute;
+    animation: fr 3s ease-in-out infinite alternate;
+}
+
+.pro-2 {
+    position: absolute;
+    left: 80px;
+    animation: fr2 3s ease-in-out infinite alternate;
+}
+
+.pro-3 {
+    left: 170px;
+    position: absolute;
+    animation: fr 3s ease-in-out infinite alternate;
+}
+
+@keyframes fr {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes fr2 {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.scond-product-part {
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.second-cen-text {
+    color: #9E9E9E;
+    margin-top: 10px;
+}
+
+.marquee-wrapper {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  overflow: hidden;
+  background: white; /* background for fade */
+}
+
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+  padding: 0 100px; /* space to allow fade */
+  mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+}
+.marquee img{
+   height: 40px;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0 30px;
+
+}
+
+@keyframes marquee {
+0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+
+@media (max-width: 768px) {
+  .marquee-content {
+    gap: 30px;
+    animation-duration: 15s; /* faster on mobile */
+  }
+
+  .marquee-content img {
+    height: 30px;
+  }
+  .mob-marq{
+    margin-top: 30px;
+  }
+}
+
+
+.overlay-sec {
+    height: 100vh;
+    position: relative;
+}
+
+.card-over1 {
+    height: 65vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    overflow: hidden;
+    position: sticky;
+    top: 25vh;
+    z-index: 2;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transition: height 0.5s ease;
+}
+
+
+
+
+/* Optional background behind sticky cards */
+.overlay-sec::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #f8f9fa, #e9ecef);
+    z-index: 0;
+    /* behind everything */
+}
+
+.product-titls {
+    font-size: 50px;
+}
+
+
+/* animation */
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.block-viewsd {
+    animation: appear 1.2s ease-out both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.card-over-img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.card-over-con {
+    padding: 30px 0 30px 30px;
+}
+
+.card-over-con h2 {
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.card-over-con p {
+    font-size: 20px;
+    color: #A2A2A2;
+}
+
+.pos-fix {
+    position: sticky;
+    top: 0;
+    z-index: -1;
+    margin-bottom: 15vh;
+}
+
+.gif-section {
+    height: 110vh;
+    background-color: #151227;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    padding: 30px 0;
+}
+
+.gif-img {
+    width: 370px;
+    mix-blend-mode: lighten;
+}
+
+
+/* ========indual product section==== */
+
+.indual-product-section {
+    margin-top: 10vh;
+    height: 170vh;
+    width: 100%;
+    position: relative;
+}
+
+.m-indu-first {
+    height: 100vh;
+    background-image: url(../assets/images/bg-over.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10 !important;
+   
+}
+
+.indual-hero-m {
+    padding: 30px 0;
+    height: 50vh;
+}
+
+.ind-img-over {
+    height: 80vh;
+    background-color: #ffff;
+    border-radius: 20px;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 20px;
+    z-index: 10 !important;
+    /* margin-top: 50px; */
+
+}
+
+.academy-title {
+  font-size: 35px;
+  font-weight: 500;
+}
+.futer-title{
+    font-size: 35px;
+}
+.futer-p{
+    font-size: 18px;
+}
+
+.ind-img-over img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.ind-img-over {
+    position: sticky;
+    top: 10vh;
+    height: 80vh;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  color: white;
+  pointer-events: none; /* so mouse events pass through */
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease-out;
+  opacity: 0.8;
+}
+
+.scroll-fade-scroll {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    z-index: 20;
+    /* transform: translateY(80px); */
+    transition: opacity 0.9s linear, transform 0.1s linear;
+}
+
+.future-sec{
+      min-height: 100vh !important;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.key-features {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.num-card-box {
+    background-color: #FAF9FE;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.number-count {
+    font-size: 90px;
+    color: #000;
+}
+
+.number-count span {
+    font-size: 43px;
+}
+
+.number-count-two {
+    font-size: 50px;
+    color: #000;
+}
+
+.number-count-two span {
+    font-size: 24px;
+}
+
+.number-desc {
+    color: #A2A2A2;
+    font-size: 16px;
+}
+
+
+/* =====================card active==== */
+.platform {
+    height: 100vh;
+    background-color: #FAF9FE;
+    padding: 40px 0;
+}
+
+.card-wrap {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.icon-box {
+    display: flex;
+    align-items: self-start;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.icon-box h6 {
+    color: #101323;
+    font-size: 20px;
+}
+
+.icon-box p {
+    color: #A2A2A2;
+}
+
+.icon img {
+    width: 40px;
+}
+
+/* ========faq=========== */
+
+.faq {
+  height: auto;
+  padding-top: 60px;
+  background: transparent;
+}
+
+/* remove any default Bootstrap borders */
+.faq-accordion {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Each accordion item — only one bottom line */
+.faq-item {
+  border: none !important;
+  border-bottom: 1px solid #A2A2A280 !important;
+  background: transparent;
+  margin-bottom: 0;
+}
+
+/* Header clean layout */
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 8px 0;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Remove blue focus outline */
+.faq-header:focus {
+  box-shadow: none !important;
+}
+
+/* No bg color on active or hover */
+.faq-header:hover,
+.faq-header.active {
+  background: none !important;
+  border: none !important;
+}
+
+/* Title style */
+.faq-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0b050f;
+}
+
+/* Plus icon stays at right */
+.faq-icon {
+  position: absolute;
+  /* right: 0; */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  /* border: 1px solid #a2a2a280; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.plus-icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+  transform: rotate(47deg) !important;
+}
+
+/* Rotate plus icon on active */
+.faq-icon.active .plus-icon {
+  transform: rotate(90deg) !important;
+}
+
+.accordion-button:not(.collapsed){
+    background: none !important;
+    box-shadow: none !important;
+}
+/* Accordion body */
+.faq-body {
+  padding: 15px 0 25px;
+  font-size: 16px;
+  color: #555;
+  background: transparent;
+  border: none;
+}
+/* Remove default Bootstrap Accordion borders */
+.accordion-item,
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+/* Optional: keep only your custom bottom border */
+.faq-item {
+  /* border: none !important; */
+  border-bottom: 1px solid #e0e0e0 !important; /* your custom border */
+  background: transparent;
+}
+
+/* Remove focus outline on click */
+.accordion-button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+
+/* Hover effect — just border emphasis */
