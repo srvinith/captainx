@@ -10,7 +10,14 @@
 
 # production
 /build
+/dist
 
+#archives
+*.zip
+*.rar
+*.tar
+*.gz
+*.tgz
 # misc
 .DS_Store
 .env.local

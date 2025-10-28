@@ -53,7 +53,7 @@ const Header = ({ language, setLanguage }) => {
   }, [lastScrollY]);
 
 
-  // ✅ Hover delay logic
+  // ✅ Hover delay logic 
   // const handleMouseEnter = () => {
   //   clearTimeout(hoverTimeout.current);
   //   setShowProducts(true);
