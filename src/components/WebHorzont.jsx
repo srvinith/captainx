@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useMemo } from "react";
 import "./WebHorzont.css";
 import langData from "../locales/langData.json";
 
@@ -9,15 +9,19 @@ const HorizontalScroll = ({ language }) => {
   const [showButtons, setShowButtons] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
+
   const board = langData[language].company.board;
 
-  const groupSize = 3;
-  const groups = [
-    board.director.slice(0, groupSize),
-    board.director.slice(groupSize, groupSize * 2),
-  ];
+  // ✅ Memoize groups to prevent dependency re-renders
+  const groups = useMemo(() => {
+    const groupSize = 3;
+    return [
+      board.director.slice(0, groupSize),
+      board.director.slice(groupSize, groupSize * 2),
+    ];
+  }, [board.director]);
 
-  // Detect mobile
+  // ✅ Detect mobile
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth <= 768);
     checkMobile();
@@ -25,9 +29,10 @@ const HorizontalScroll = ({ language }) => {
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  // Desktop scroll animation
+  // ✅ Desktop scroll animation
   useEffect(() => {
     if (isMobile) return;
+
     const handleScroll = () => {
       const section = sectionRef.current;
       const inner = innerRef.current;
@@ -66,34 +71,35 @@ const HorizontalScroll = ({ language }) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [isMobile]);
 
-  // Mobile auto-slide one by one
+  // ✅ Mobile auto-slide one by one
   useEffect(() => {
     if (!isMobile) return;
+
     const activeGroup = activeTab === "directors" ? groups[0] : groups[1];
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % activeGroup.length);
-    }, 2500); // change image every 2.5s
+    }, 2500);
+
     return () => clearInterval(interval);
-  }, [isMobile, activeTab]);
+  }, [isMobile, activeTab, groups]);
 
-  // Show bottom button only when this section is visible (mobile only)
-useEffect(() => {
-  if (!isMobile) return;
+  // ✅ Show bottom button only when section visible (mobile only)
+  useEffect(() => {
+    if (!isMobile) return;
 
-  const handleScroll = () => {
-    const section = sectionRef.current;
-    if (!section) return;
+    const handleScroll = () => {
+      const section = sectionRef.current;
+      if (!section) return;
 
-    const rect = section.getBoundingClientRect();
-    const inView = rect.top < window.innerHeight && rect.bottom > 0;
-    setShowButtons(inView);
-  };
+      const rect = section.getBoundingClientRect();
+      const inView = rect.top < window.innerHeight && rect.bottom > 0;
+      setShowButtons(inView);
+    };
 
-  window.addEventListener("scroll", handleScroll);
-  handleScroll();
-  return () => window.removeEventListener("scroll", handleScroll);
-}, [isMobile]);
-
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [isMobile]);
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
@@ -118,7 +124,7 @@ useEffect(() => {
           </div>
         </div>
 
-        {/* Mobile view - single image slider */}
+        {/* ✅ Mobile version */}
         {isMobile ? (
           <div className="mobile-image-box">
             <img src={currentImage.img} alt={currentImage.name} />
@@ -128,14 +134,17 @@ useEffect(() => {
             </div>
           </div>
         ) : (
-          // Desktop version (grouped)
+          // ✅ Desktop version
           <div className="horzont-slider-container">
             {groups.map((group, gIndex) => (
               <div
                 key={gIndex}
                 className="horzont-slider-group"
                 style={{
-                  opacity: activeTab === (gIndex === 0 ? "directors" : "advisory") ? 1 : 0,
+                  opacity:
+                    activeTab === (gIndex === 0 ? "directors" : "advisory")
+                      ? 1
+                      : 0,
                   transform:
                     activeTab === (gIndex === 0 ? "directors" : "advisory")
                       ? "translateY(0)"
@@ -156,7 +165,6 @@ useEffect(() => {
           </div>
         )}
 
-        {/* Bottom buttons (always visible on mobile) */}
         {(showButtons || isMobile) && (
           <div className="tab-button">
             <div className="button-container">

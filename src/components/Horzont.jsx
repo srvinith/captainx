@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useMemo } from "react";
 import "./Horzont.css";
 import langData from "../locales/langData.json";
 
@@ -8,14 +8,19 @@ const HorizontalScroll = ({ language }) => {
   const [activeTab, setActiveTab] = useState("directors");
   const [showButtons, setShowButtons] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+
   const board = langData[language].company.board;
 
-  const groupSize = 3;
-  const groups = [
-    board.director.slice(0, groupSize),
-    board.director.slice(groupSize, groupSize * 2),
-  ];
+  // ✅ Memoize groups so they don't change on every render
+  const groups = useMemo(() => {
+    const groupSize = 3;
+    return [
+      board.director.slice(0, groupSize),
+      board.director.slice(groupSize, groupSize * 2),
+    ];
+  }, [board.director]);
 
+  // ✅ Mobile check
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth <= 768);
     checkMobile();
@@ -23,9 +28,10 @@ const HorizontalScroll = ({ language }) => {
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  // --- Desktop scroll effect ---
+  // ✅ Desktop scroll effect
   useEffect(() => {
     if (isMobile) return;
+
     const handleScroll = () => {
       const section = sectionRef.current;
       const inner = innerRef.current;
@@ -52,8 +58,8 @@ const HorizontalScroll = ({ language }) => {
         setActiveTab(groupIndex === 0 ? "directors" : "advisory");
 
         groups.forEach((_, i) => {
-          if (inner.children[1].children[i]) {
-            const groupEl = inner.children[1].children[i];
+          const groupEl = inner.children[1]?.children[i];
+          if (groupEl) {
             groupEl.style.opacity = i === groupIndex ? "1" : "0";
             groupEl.style.transform = `translateY(${i === groupIndex ? "0" : "50px"})`;
           }
@@ -70,14 +76,18 @@ const HorizontalScroll = ({ language }) => {
     window.addEventListener("scroll", handleScroll);
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [isMobile]);
+  }, [isMobile, groups]);
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
 
   return (
-    <section className="horzont-sec" ref={sectionRef} style={{ height: isMobile ? "auto" : "200vh" }}>
+    <section
+      className="horzont-sec"
+      ref={sectionRef}
+      style={{ height: isMobile ? "auto" : "200vh" }}
+    >
       <div className="horzont-slider-wrapper container" ref={innerRef}>
         <div className="row">
           <div className="col-md-7">
@@ -91,7 +101,14 @@ const HorizontalScroll = ({ language }) => {
           {groups.map((group, gIndex) => (
             <div
               key={gIndex}
-              className={`horzont-slider-group ${isMobile ? (activeTab === (gIndex === 0 ? "directors" : "advisory") ? "active" : "hidden") : ""}`}
+              className={`horzont-slider-group ${
+                isMobile
+                  ? activeTab ===
+                    (gIndex === 0 ? "directors" : "advisory")
+                    ? "active"
+                    : "hidden"
+                  : ""
+              }`}
             >
               {group.map((dir, index) => (
                 <div key={index} className="img-slide-box">

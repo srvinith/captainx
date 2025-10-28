@@ -63,10 +63,10 @@ const Company = ({ language }) => {
                     </div> */}
                     <div className="row">
                         {company.card.map((card, index) =>
-                        <div className="col-md-4">
-                            <div className="company-boxs">
+                        <div className="col-md-4" key={index}>
+                            <div className="company-boxs" >
                                 <div className="comp-box">
-                                    <div className=" " key={index}>
+                                    <div className=" " >
                                         <div className="arrow-box"></div>
                                         <div className="news-cards desk-card">
                                             <h3>{card.num}</h3>

@@ -190,10 +190,10 @@ const Home = ({ language }) => {
 
           <div className="row">
             {newsCard.news.map((item, index) =>
-              <div className="col-md-4">
+              <div className="col-md-4" key={index}>
                 <div className="company-boxs">
                   <div className="comp-box">
-                    <div className=" " key={index}>
+                    <div className=" " >
                       <div className="arrow-box"></div>
                       <div className="news-cards">
                         <h3>{item.number}</h3>

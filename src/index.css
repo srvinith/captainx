@@ -393,15 +393,14 @@ body {
 }
 
 .under span {
-  background: rgba(104, 63, 234, 1);
-  /* Optional background behind text */
-  background-image: linear-gradient(90deg, #ff7e5f, #feb47b);
-  /* Gradient for text */
-  -webkit-background-clip: text;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  background-clip: text;
+  -webkit-background-clip: text; /* Required for Chrome/Safari */
+  color: transparent;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  /* optional */
 }
+
 
 
 /* RTL Language Support */
