@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import langData from '../locales/langData.json'
+import ContactForm from '../components/Forms/ContactForm'
 import arrow from '../assets/images/right-arrow.svg'
 import clt1 from '../assets/images/ctl5.svg'
 import clt2 from '../assets/images/clt2.png'
@@ -9,6 +10,7 @@ import clt4 from '../assets/images/clt4.png'
 
 const Partners = ({ language }) => {
     const partner = langData[language].partner;
+    const [showModal, setShowModal] = useState(false);
 
 
     return (
@@ -29,12 +31,28 @@ const Partners = ({ language }) => {
                             ></p>
 
                             <button
-                                className="explore-btn cta-btn my-4 gap-3">
+                                className="explore-btn cta-btn my-4 gap-3"
+                                onClick={() => setShowModal(true)}
+                            >
                                 {partner.btn}
                                 <img src={arrow} alt="arrow" className="rt-btn" />
                             </button>
                         </center>
                     </div>
+                      {showModal && (
+        <div className="contact-modal-overlay" onClick={() => setShowModal(false)}>
+          <div
+            className="contact-modal"
+            onClick={(e) => e.stopPropagation()} // prevent closing when clicking inside
+          >
+            <button className="close-btn" onClick={() => setShowModal(false)}>
+              ✕
+            </button>
+
+           <ContactForm/>
+          </div>
+        </div>
+      )}
                 </div>
             </section>
 

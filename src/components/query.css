@@ -653,7 +653,9 @@
 
     .slide-card {
         flex: 0 0 50vw;
+     
     }
+     
 
     .slider-arrow.left {
         left: 15px;

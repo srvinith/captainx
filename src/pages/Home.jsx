@@ -195,11 +195,14 @@ const Home = ({ language }) => {
                   <div className="comp-box">
                     <div className=" " >
                       <div className="arrow-box"></div>
-                      <div className="news-cards">
+                      <div
+                        className={`news-cards ${language === 'ar' ? 'rtl' : 'ltr'}`}
+                      >
                         <h3>{item.number}</h3>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
                       </div>
+
                       <span className={`date ${language === 'ar' ? 'rtl-date' : 'ltr-date'}`}>{item.date}</span>
                     </div>
                   </div>

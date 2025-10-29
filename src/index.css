@@ -920,10 +920,26 @@ body {
   transition: color 0.4s ease-in-out;
 }
 
-/* ✅ Title styling */
-.news-cards h2 {
+.news-cards h2,
+.news-cards h3 {
   font-size: 22px;
   margin-bottom: 10px;
+  padding-right: 30px;
+  transition: all 0.3s ease;
+}
+
+/* Arabic RTL support */
+.news-cards.rtl h2,
+.news-cards.rtl h3 {
+  padding-right: 40px;
+  padding-left: 0px;
+  text-align: right; /* optional for RTL */
+}
+
+.news-cards.ltr h2,
+.news-cards.ltr h3 {
+  text-align: left;
+  padding-right: 30px;
 }
 
 
@@ -1126,12 +1142,13 @@ body {
 }
 
 
+
 .company-boxs {
     width: 358px;
     height: 351px;
     background-color: transparent;
     position: relative;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .bottom-box-arr {
@@ -1172,3 +1189,50 @@ body {
   );
 }
 
+/* Overlay background */
+.contact-modal-overlay {
+  position: fixed; /* ✅ stays over entire screen */
+  top: 10vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* higher z-index to stay on top */
+  animation: fadeIn 0.3s ease;
+}
+
+
+/* Modal box */
+.contact-modal {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  animation: slideUp 0.3s ease;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
